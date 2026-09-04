@@ -6,8 +6,9 @@
  * layout only splits into two columns from `sm` up, so the narrow viewport
  * always falls back to the grid arrangement.
  */
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import SmartImage from './SmartImage'
+import PhotoFan from './PhotoFan'
 import { ArrowGlyph, Rule, Tag } from './primitives'
 import { t, type TKey } from '@/copy'
 import { coverFor, photoCount } from '@/lib/photos'
@@ -42,6 +43,9 @@ export default function PropertyCard({
   className?: string
 }) {
 
+  // Hover AND focus, so the fan is not mouse-only.
+  const [fanned, setFanned] = useState(false)
+
   const cover = coverFor(property.id)
   const total = photoCount(property.id)
   const isList = layout === 'list'
@@ -66,6 +70,10 @@ export default function PropertyCard({
   return (
     <Link
       to={routeFor(property)}
+      onMouseEnter={() => setFanned(true)}
+      onMouseLeave={() => setFanned(false)}
+      onFocus={() => setFanned(true)}
+      onBlur={() => setFanned(false)}
       className={cx(
         'group flex h-full flex-col overflow-hidden rounded-[2px] border border-ink/8 bg-white',
         'transition-[transform,box-shadow,border-color] duration-500 ease-cinematic',
@@ -81,20 +89,13 @@ export default function PropertyCard({
             isList ? 'aspect-[4/3] sm:aspect-auto sm:h-full sm:min-h-[15rem]' : 'aspect-[4/3]',
           )}
         >
-          <SmartImage
-            src={cover.card}
-            srcLarge={cover.full}
-            sizes={
-              isList
-                ? '(max-width: 640px) 100vw, 40vw'
-                : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
-            }
+          {/* The pile riffles on hover — depth within one listing, as opposed
+              to the ring's breadth across many. */}
+          <PhotoFan
+            propertyId={property.id}
             alt={photoAlt(property, 0, total)}
-            color={cover.color}
-            width={cover.w}
-            height={cover.h}
+            active={fanned}
             priority={priority}
-            zoomOnHover
             className="h-full w-full"
           />
 

@@ -9,6 +9,8 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import PageHero from '@/components/PageHero'
+import StoryTimeline from '@/components/StoryTimeline'
+import TiltCard from '@/components/TiltCard'
 import PropertyMap from '@/components/PropertyMap'
 import {
   DataRow,
@@ -109,7 +111,10 @@ export default function About() {
             data-reveal
             className="lg:col-span-4 lg:col-start-9 lg:self-start lg:sticky lg:top-[calc(var(--nav-h)+3rem)]"
           >
-            <div className="rounded-[2px] border border-ink/10 bg-bone p-8 sm:p-10">
+            {/* The one card on the page with nothing but type in it, so it is
+                the one that benefits most from having some physical presence. */}
+            <TiltCard intensity={6}>
+              <div className="rounded-[2px] border border-ink/10 bg-bone p-8 sm:p-10">
               <span
                 aria-hidden
                 className="block font-display text-[44px] font-extralight leading-none tracking-[0.04em] text-brand-500"
@@ -121,13 +126,18 @@ export default function About() {
                 {agency.agent}
               </h2>
               <Eyebrow className="mt-3">{t('about.agent.role')}</Eyebrow>
-              <p className="mt-6 text-[13px] tabular-nums text-ink-faint">
-                {agency.address.city} · {agency.founded}
-              </p>
-            </div>
+                <p className="mt-6 text-[13px] tabular-nums text-ink-faint">
+                  {agency.address.city} · {agency.founded}
+                </p>
+              </div>
+            </TiltCard>
           </aside>
         </div>
       </Section>
+
+      {/* The chronology sits between the narrative and the pledge — it is the
+          story told again as structure, which is what makes 1989 land. */}
+      <StoryTimeline />
 
       <Section tone="ink">
         <div ref={revealPledge} className="shell">
@@ -148,7 +158,7 @@ export default function About() {
         </div>
       </Section>
 
-      <Section tone="bone">
+      <Section tone="sand">
         <div ref={revealOffice} className="shell">
           <SectionHead eyebrow={t('about.hero.eyebrow')} title={t('about.office')} />
 

@@ -103,7 +103,7 @@ export default function Navbar() {
                     <span
                       aria-hidden
                       className={cx(
-                        'absolute -bottom-1 left-0 h-[2px] bg-terra-600',
+                        'absolute -bottom-1 left-0 h-[2px] bg-terra-500',
                         'transition-[width,opacity] duration-400 ease-cinematic',
                         isActive
                           ? 'w-full opacity-100'
@@ -192,7 +192,7 @@ export default function Navbar() {
                       <>
                         <span>{t(l.key)}</span>
                         {isActive ? (
-                          <span aria-hidden className="h-[2px] w-8 bg-terra-600" />
+                          <span aria-hidden className="h-[2px] w-8 bg-terra-500" />
                         ) : null}
                       </>
                     )}
