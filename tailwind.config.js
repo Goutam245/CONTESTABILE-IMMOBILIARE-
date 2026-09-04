@@ -80,6 +80,9 @@ export default {
          emitted no rule and four transitions silently ran at the 150ms
          default — the nav underline, both burger bars and the sticky bar. */
       transitionDuration: { 400: '400ms' },
+      /* 26 and 30 are not on the stock spacing scale; without these the
+         `sm:py-26` / section rhythm would silently emit nothing. */
+      spacing: { 26: '6.5rem', 30: '7.5rem' },
       maxWidth: { shell: '90rem' },
       transitionTimingFunction: {
         cinematic: 'cubic-bezier(0.16, 1, 0.3, 1)',
@@ -88,6 +91,13 @@ export default {
       boxShadow: {
         lift: '0 1px 2px rgba(10,20,16,.04), 0 12px 32px -12px rgba(10,20,16,.16)',
         'lift-lg': '0 2px 4px rgba(10,20,16,.05), 0 32px 64px -24px rgba(10,20,16,.28)',
+        /* Named rather than written inline as `shadow-[...]`: Tailwind's
+           arbitrary-value parser does not survive the commas inside rgba(), so
+           the inline form landed in the DOM as a class that generated no rule
+           at all. */
+        'ring-card': '0 10px 28px -14px rgba(10,20,16,.45)',
+        'ring-card-hot': '0 0 0 2px rgba(238,69,14,.92), 0 26px 60px -18px rgba(10,20,16,.55)',
+        'fan': '0 18px 44px -22px rgba(10,20,16,.5)',
       },
       keyframes: {
         'scroll-cue': {
@@ -121,6 +131,12 @@ export default {
           from: { transform: 'rotate(360deg)' },
           to:   { transform: 'rotate(0deg)' },
         },
+        // The photo ring. Two and a half minutes for one revolution — at 64s it
+        // read as a spinning wheel rather than a showcase turning.
+        'ring-spin': {
+          from: { transform: 'rotateY(0deg)' },
+          to:   { transform: 'rotateY(-360deg)' },
+        },
         'breathe': {
           '0%, 100%': { opacity: '.35', transform: 'scale(1)' },
           '50%':      { opacity: '.7',  transform: 'scale(1.06)' },
@@ -134,6 +150,7 @@ export default {
         'orbit': 'orbit 64s linear infinite',
         'orbit-reverse': 'orbit-reverse 96s linear infinite',
         'breathe': 'breathe 7s ease-in-out infinite',
+        'ring-spin': 'ring-spin 150s linear infinite',
       },
     },
   },

@@ -71,14 +71,33 @@ export default function Properties() {
   const list = useReveal<HTMLUListElement>({ y: 20, stagger: 0.06 })
 
   // The slim bar only earns its place once the real panel is off screen.
+  // A rect check rather than IntersectionObserver: IO silently never fires in
+  // some embedded browsers, and a sticky bar that never appears is worse than
+  // a handful of passive scroll reads.
   useEffect(() => {
-    const el = panelRef.current
-    if (!el || typeof IntersectionObserver === 'undefined') return
-    const io = new IntersectionObserver(([entry]) => setStuck(!entry.isIntersecting), {
-      rootMargin: '-120px 0px 0px 0px',
-    })
-    io.observe(el)
-    return () => io.disconnect()
+    let frame = 0
+    const check = () => {
+      frame = 0
+      const el = panelRef.current
+      if (!el) return
+      setStuck(el.getBoundingClientRect().bottom < 120)
+    }
+    const schedule = () => {
+      if (!frame) frame = window.requestAnimationFrame(check)
+    }
+    schedule()
+    window.addEventListener('scroll', schedule, { passive: true })
+    window.addEventListener('resize', schedule, { passive: true })
+    // Backstop, for the same reasons as useNearViewport: a smooth-scroll library
+    // can move the page without emitting a native scroll event, and rAF is
+    // suspended in a hidden tab — so this calls check() directly.
+    const poll = window.setInterval(check, 300)
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame)
+      window.clearInterval(poll)
+      window.removeEventListener('scroll', schedule)
+      window.removeEventListener('resize', schedule)
+    }
   }, [])
 
   /** Desktop has the panel in flow, so "Filtri" scrolls back to it. */

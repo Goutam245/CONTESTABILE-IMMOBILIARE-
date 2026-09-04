@@ -1,20 +1,25 @@
 /**
- * The photographic bed shared by every full-bleed section on the site.
+ * The media bed shared by every full-bleed section on the site — video or
+ * photograph.
  *
- * One component owns the whole treatment — parallax drift, tonal normalisation,
- * the scrim, and the film grain — so a hero can never ship with text sitting on
- * a bare photograph. The agency's own pictures vary enormously in exposure (a
- * dark stone courtyard next to a sunlit terracotta room), so the image is
- * levelled slightly before the scrim goes over it; that combination is what
- * makes light type reliable across the whole set rather than per photo.
+ * One component owns the whole treatment: parallax drift, tonal normalisation,
+ * the atmosphere layer, the scrim and the film grain. That is the point — a
+ * hero can never ship with text sitting on bare footage, and swapping a still
+ * for a loop changes nothing about how the type is protected.
+ *
+ * Pass `video` and it plays with the photo (or its own poster) underneath;
+ * pass only `photo` and it behaves exactly as before.
  */
 import type { PhotoRendition } from '@/types'
 import SmartImage from './SmartImage'
+import VideoBackdrop from './VideoBackdrop'
 import { useParallax } from '@/lib/anim'
+import { videoFor } from '@/lib/videos'
 import { cx } from '@/lib/utils'
 
 export default function HeroMedia({
   photo,
+  video,
   alt,
   strength = 14,
   topScrim = false,
@@ -22,6 +27,8 @@ export default function HeroMedia({
   className,
 }: {
   photo: PhotoRendition | undefined
+  /** Key into the generated video index; falls back to `photo` if unknown. */
+  video?: string
   alt: string
   /** Parallax travel, in percent of the layer height. 0 disables the drift. */
   strength?: number
@@ -32,12 +39,20 @@ export default function HeroMedia({
   className?: string
 }) {
   const layer = useParallax<HTMLDivElement>(strength)
+  const clip = video ? videoFor(video) : undefined
 
   return (
-    <div aria-hidden={!photo} className={cx('absolute inset-0 overflow-hidden', className)}>
+    <div
+      // A video bed is decorative — the <h1> carries the meaning and there is
+      // no useful way to caption a silent loop. A photograph keeps its alt.
+      aria-hidden={clip ? true : !photo}
+      className={cx('absolute inset-0 overflow-hidden', className)}
+    >
       {/* Over-height so the parallax never exposes an edge. */}
       <div ref={layer} className="absolute inset-0 -top-[9%] h-[118%]">
-        {photo ? (
+        {clip ? (
+          <VideoBackdrop video={clip} objectPosition={objectPosition} priority />
+        ) : photo ? (
           <SmartImage
             src={photo.card}
             srcLarge={photo.full}

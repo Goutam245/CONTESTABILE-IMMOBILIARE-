@@ -8,7 +8,7 @@ ScrollTrigger · Lenis · React Router 6 · Leaflet. Deploy target: Vercel.
 
 ```bash
 npm install
-npm run dev        # http://localhost:5183
+npm run dev        # http://localhost:5311
 npm run build      # sitemap + tsc --noEmit + vite build
 npm run typecheck
 npm run audit      # tripwire for remote assets, missing alt, banned deps
@@ -30,7 +30,8 @@ supplied — it is not invented:
 
 Italian description text is reproduced **verbatim**, including the agency's own
 typos (`Inffissi`, `abibibile`, `cantinolae`), because it is contractual copy.
-English is a translation for the EN interface only, not a legal rendering.
+The site is Italian only — the bilingual layer and its switcher were removed at
+the client's request.
 
 ### Regenerating derived assets
 
@@ -39,9 +40,36 @@ Neither runs during `npm run dev`; run them when the source material changes.
 
 ```bash
 npm run images   # 301 photos -> 903 WebP renditions (thumb/card/full) + photo-index.json
+npm run video    # 5 source videos -> 10 MP4 renditions + WebP posters + video-index.json
 npm run brand    # logo.png, logo-icon.png, favicons, apple-touch-icon
 npm run sitemap  # public/sitemap.xml from the listing ids
 ```
+
+`npm run video <slug>` re-encodes a single clip and patches the index, rather
+than redoing all five.
+
+### Video
+
+The client supplied five 4K masters totalling **233 MB**. Delivered as H.264 at
+1600px (desktop) and 960px (phones), audio stripped, `+faststart`, plus a WebP
+poster pulled a little way in so the first frame of a fade is never the poster:
+
+| Clip | Where | Source | Desktop | Mobile |
+|---|---|---|---|---|
+| `Home hero.mp4` | Home hero | 21.7 MB, 2560×1440, 13.9s | 3.7 MB | 1.0 MB |
+| `Immobili Hero.mp4` | /immobili hero | 22.8 MB, 3840×2160, 11.7s | 1.8 MB | 0.6 MB |
+| `Agenzia Hero.mp4` | /agenzia hero | 87.5 MB, 3840×2160, 35.0s | 2.6 MB | 0.9 MB |
+| `Contatti Hero.mp4` | /contatti hero | 22.3 MB, 3840×2160, 8.8s | 2.2 MB | 0.6 MB |
+| `Home page.mp4` | Home interlude | 78.4 MB, 3840×2160, 31.6s | 4.9 MB | 1.5 MB |
+
+Two were also **trimmed** (`TRIM` in `scripts/process-video.mjs`): the Agenzia
+hero from 35s to 15s and the interlude from 32s to 20s. Nobody watches 35
+seconds of wallpaper, and the tail was costing more than the whole rest of the
+hero. Raise or remove those numbers to restore the full clips.
+
+A visitor loads one rendition of one hero (~0.6–3.7 MB), plus the interlude only
+if they scroll to it. The interlude is lazily fetched and every loop pauses when
+it leaves the viewport or the tab goes to the back.
 
 ---
 
@@ -60,26 +88,33 @@ contestabile-caserta/
 │  └─ audit.mjs                Static tripwire (remote URLs, alt text, deps)
 ├─ public/                     favicons, manifest, robots.txt, sitemap.xml
 └─ src/
-   ├─ main.tsx                 Root, router, i18n provider
+   ├─ main.tsx                 Root, router, MotionConfig (reduced motion)
    ├─ App.tsx                  Layout, routes, scroll + ScrollTrigger reset
-   ├─ index.css                Design tokens, .field, .shell, veils, grain
+   ├─ index.css                Design tokens, .field, .shell, scrims, grain
    ├─ types.ts                 Property model (mapped to the AgestaNET schema)
-   ├─ i18n/index.tsx           IT/EN dictionary + provider + useI18n()
+   ├─ copy.ts                  Every UI string, in Italian — a plain t() lookup
    ├─ data/
    │  ├─ properties.ts         The 14 listings — the factual core
    │  ├─ site.ts               Agency constants, story, stats, testimonials
-   │  ├─ heroes.ts             Which real photo opens which page
-   │  └─ photo-index.json      GENERATED — do not hand-edit
+   │  ├─ heroes.ts             Which video/photo opens which page
+   │  ├─ photo-index.json      GENERATED — do not hand-edit
+   │  └─ video-index.json      GENERATED — do not hand-edit
    ├─ lib/
-   │  ├─ photos.ts             photo-index -> Vite hashed URLs
+   │  ├─ photos.ts             photo-index -> /properties URLs
+   │  ├─ videos.ts             video-index -> /video URLs + play/skip decision
+   │  ├─ useNearViewport.ts    Rect-based proximity (not IntersectionObserver)
    │  ├─ utils.ts              Formatters, alt text, routing helpers
-   │  ├─ anim.ts               useReveal / useParallax / useCounter / useHeroFade
+   │  ├─ anim.ts               useReveal / useParallax / useCounter
    │  ├─ smoothScroll.ts       Lenis wired into the GSAP ticker
    │  └─ seo.ts                Per-route meta, OG, JSON-LD
    ├─ components/
+   │  ├─ HeroMedia.tsx        One media bed — video or photo — with the scrim
+   │  ├─ VideoBackdrop.tsx    Autoplay/muted/loop/playsinline + poster + pausing
+   │  ├─ CinematicInterlude.tsx  Full-bleed video break mid-homepage
+   │  ├─ LogoIntro.tsx        ~2s ring-of-light arrival moment
    │  ├─ primitives.tsx        Section, SectionHead, Eyebrow, Button, Tag, DataRow…
    │  ├─ SmartImage.tsx        Lazy image, dominant-colour hold, fade on decode
-   │  ├─ Navbar.tsx  Footer.tsx  Logo.tsx  LanguageSwitcher.tsx
+   │  ├─ Navbar.tsx  Footer.tsx  Logo.tsx  ScrollToTop.tsx  AmbientOrbit.tsx
    │  ├─ HomeHero.tsx  PageHero.tsx
    │  ├─ PropertyCard.tsx  PropertyGallery.tsx  PropertyMap.tsx
    │  ├─ FilterBar.tsx  ContactForm.tsx
