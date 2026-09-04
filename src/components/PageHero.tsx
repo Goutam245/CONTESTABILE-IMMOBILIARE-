@@ -6,7 +6,7 @@ import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import HeroMedia from './HeroMedia'
 import { Eyebrow } from './primitives'
-import { heroAlt, heroPhoto, type HeroKey } from '@/data/heroes'
+import { heroAlt, heroPhoto, heroVideo, type HeroKey } from '@/data/heroes'
 import { cx } from '@/lib/utils'
 
 const easing = [0.16, 1, 0.3, 1] as const
@@ -34,7 +34,12 @@ export default function PageHero({
         className,
       )}
     >
-      <HeroMedia photo={heroPhoto(image)} alt={heroAlt[image]} strength={12} />
+      <HeroMedia
+        photo={heroPhoto(image)}
+        video={heroVideo(image)}
+        alt={heroAlt[image]}
+        strength={12}
+      />
 
       <div className="shell relative w-full pb-14 pt-20 sm:pb-[4.5rem]">
         <motion.div

@@ -4,24 +4,46 @@
  * The old site buried the number under a broken captcha; here the direct
  * contacts sit beside the form as real `tel:`/`mailto:` links, so nobody has to
  * fill anything in to reach the office.
+ *
+ * Presentation-wise the page is built around one object: a white card lifted off
+ * a sand ground, with the enquiry form occupying most of it and a near-black
+ * rail of direct contacts running down the side. The rail is the page's own
+ * motion moment — each row rises in turn and its hairline draws left-to-right
+ * underneath it, which gives the list a cadence without anything sliding about.
  */
-import { useMemo } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import ContactForm from '@/components/ContactForm'
 import PageHero from '@/components/PageHero'
 import PropertyMap from '@/components/PropertyMap'
-import { ButtonLink, DataRow, Eyebrow, Rule, Section, SectionHead } from '@/components/primitives'
+import { Eyebrow, Rule, Section, SectionHead } from '@/components/primitives'
 import { t } from '@/copy'
 import { heroPhoto } from '@/data/heroes'
 import { agency } from '@/data/site'
 import { useReveal } from '@/lib/anim'
+import { useNearViewport } from '@/lib/useNearViewport'
 import { organisationJsonLd, SITE_URL, useSeo } from '@/lib/seo'
+import { prefersReducedMotion } from '@/lib/utils'
 
 /** `agency` stores the dialable form as an href; schema.org wants it bare. */
 const dialable = (href: string): string => href.replace('tel:', '')
 
+/**
+ * Links inside the dark rail. No `transition-colors` utility here on purpose:
+ * it would rewrite `transition-property` and kill `.link-underline`'s sweep,
+ * which already transitions colour itself — see the note in index.css.
+ */
+const railLink = 'link-underline text-bone hover:text-brand-300'
+
 export default function Contact() {
-  const body = useReveal<HTMLDivElement>()
-  const map = useReveal<HTMLDivElement>()
+  const formCol = useReveal<HTMLDivElement>({ stagger: 0.11 })
+  const directCol = useReveal<HTMLDivElement>({ y: 22, stagger: 0.07 })
+  const mapBlock = useReveal<HTMLDivElement>({ y: 34, stagger: 0.12 })
+
+  // The hairline draw. Rect-based, like every other arrival on this site, and
+  // pre-resolved under reduced motion so the rules are simply there on arrival.
+  const [rowsRef, rowsNear] = useNearViewport<HTMLDListElement>(-40, true)
+  const [reduced] = useState(prefersReducedMotion)
+  const drawn = reduced || rowsNear
 
   const hero = heroPhoto('contact')
 
@@ -62,6 +84,49 @@ export default function Contact() {
     jsonLd,
   })
 
+  const postal = `${agency.address.postcode} ${agency.address.city} (${agency.address.province})`
+
+  const rows: ReadonlyArray<{ key: string; label: string; value: ReactNode }> = [
+    {
+      key: 'phone',
+      label: t('contact.phone'),
+      value: (
+        <a href={agency.phone.href} className={railLink}>
+          {agency.phone.label}
+        </a>
+      ),
+    },
+    {
+      key: 'mobile',
+      label: t('contact.mobile'),
+      value: (
+        <a href={agency.mobile.href} className={railLink}>
+          {agency.mobile.label}
+        </a>
+      ),
+    },
+    {
+      key: 'email',
+      label: t('contact.email'),
+      value: (
+        <a href={`mailto:${agency.email}`} className={`${railLink} break-all`}>
+          {agency.email}
+        </a>
+      ),
+    },
+    {
+      key: 'address',
+      label: t('contact.address'),
+      value: (
+        <address className="not-italic leading-relaxed">
+          {agency.address.street}
+          <br />
+          {postal}
+        </address>
+      ),
+    },
+  ]
+
   return (
     <>
       <PageHero
@@ -71,108 +136,115 @@ export default function Contact() {
         sub={t('contact.hero.sub')}
       />
 
-      <Section tone="bone">
-        <div ref={body} className="shell grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
-          <div>
-            <SectionHead title={t('detail.form.title')} sub={t('detail.form.sub')} />
-            <div data-reveal className="mt-12">
-              <ContactForm />
-            </div>
-          </div>
-
-          <div className="border-t border-ink/8 pt-12 lg:border-l lg:border-t-0 lg:pl-16 lg:pt-0">
-            <h2
-              data-reveal
-              className="text-[clamp(1.35rem,2.4vw,1.8rem)] leading-tight tracking-[-0.015em]"
-            >
-              {t('contact.direct')}
-            </h2>
-
-            <Rule className="mt-6" />
-
-            <dl data-reveal className="mt-2">
-              <DataRow
-                label={t('contact.phone')}
-                value={
-                  <a
-                    href={agency.phone.href}
-                    className="link-underline hover:text-brand-600"
-                  >
-                    {agency.phone.label}
-                  </a>
-                }
-              />
-              <DataRow
-                label={t('contact.mobile')}
-                value={
-                  <a
-                    href={agency.mobile.href}
-                    className="link-underline hover:text-brand-600"
-                  >
-                    {agency.mobile.label}
-                  </a>
-                }
-              />
-              <DataRow
-                label={t('contact.email')}
-                value={
-                  <a
-                    href={`mailto:${agency.email}`}
-                    className="link-underline break-all hover:text-brand-600"
-                  >
-                    {agency.email}
-                  </a>
-                }
-              />
-              <DataRow
-                label={t('contact.address')}
-                value={
-                  <address className="not-italic leading-relaxed">
-                    {agency.address.street}
-                    <br />
-                    {agency.address.postcode} {agency.address.city} ({agency.address.province})
-                  </address>
-                }
-              />
-            </dl>
-
-            <div data-reveal className="mt-10">
-              <ButtonLink
-                to={agency.whatsapp.href}
-                external
-                variant="outline"
-                size="sm"
-                aria-label={`${t('nav.whatsapp')} ${agency.whatsapp.label}`}
+      {/* Sand ground, white card: the elevation is what makes the form read as
+          the subject of the page rather than a block at the bottom of it. */}
+      <Section tone="sand">
+        <div className="shell">
+          <div className="overflow-hidden rounded-[3px] border border-ink/8 bg-white shadow-lift-lg">
+            <div className="grid lg:grid-cols-12">
+              <div
+                ref={formCol}
+                className="min-w-0 p-6 sm:p-10 lg:col-span-7 lg:p-14 xl:p-16"
               >
-                <WhatsAppGlyph />
-                {t('nav.whatsapp')}
-              </ButtonLink>
-            </div>
+                <SectionHead title={t('detail.form.title')} sub={t('detail.form.sub')} />
 
-            <div data-reveal className="mt-12">
-              <Eyebrow>{t('contact.follow')}</Eyebrow>
-              <a
-                href={agency.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="mt-4 flex h-10 w-10 items-center justify-center rounded-full border border-ink/12 text-ink-muted transition-colors duration-500 ease-cinematic hover:border-brand-500 hover:bg-brand-500 hover:text-white"
+                <div data-reveal className="mt-9 lg:mt-11">
+                  <Rule />
+                </div>
+
+                <div data-reveal className="mt-9 lg:mt-11">
+                  <ContactForm />
+                </div>
+              </div>
+
+              {/* The dark rail. Full-bleed inside the card, so the two halves
+                  read as one object with a shadow line down the middle. */}
+              <div
+                ref={directCol}
+                className="min-w-0 bg-ink p-6 text-bone sm:p-10 lg:col-span-5 lg:p-12 xl:p-14"
               >
-                <FacebookGlyph />
-              </a>
+                <h2
+                  data-reveal
+                  className="text-[clamp(1.35rem,2.4vw,1.8rem)] leading-tight tracking-[-0.015em] text-bone"
+                >
+                  {t('contact.direct')}
+                </h2>
+
+                <div data-reveal className="mt-6">
+                  <Rule invert />
+                </div>
+
+                <dl ref={rowsRef} className="mt-7">
+                  {rows.map((row, i) => (
+                    <div key={row.key} data-reveal className="relative py-5 first:pt-0">
+                      <dt className="text-[11px] font-medium uppercase tracking-[0.16em] text-bone/60">
+                        {row.label}
+                      </dt>
+                      <dd className="mt-2.5 text-[16px] leading-relaxed sm:text-[17px]">
+                        {row.value}
+                      </dd>
+                      <span
+                        aria-hidden
+                        className="absolute inset-x-0 bottom-0 block h-px origin-left bg-bone/18 transition-transform duration-700 ease-cinematic"
+                        style={{
+                          transform: drawn ? 'scaleX(1)' : 'scaleX(0)',
+                          transitionDelay: `${220 + i * 130}ms`,
+                        }}
+                      />
+                    </div>
+                  ))}
+                </dl>
+
+                <div data-reveal className="mt-9">
+                  {/* Understated on purpose: the saturated WhatsApp pill already
+                      lives in the header, and green-on-white text there fails AA
+                      anyway. Bone outline that fills on hover, 16:1 either way. */}
+                  <a
+                    href={agency.whatsapp.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${t('nav.whatsapp')} ${agency.whatsapp.label}`}
+                    className="inline-flex w-full items-center justify-center gap-2.5 rounded-[2px] border border-bone/30 px-6 py-3.5 font-sans text-[12.5px] font-medium uppercase tracking-[0.13em] text-bone transition-colors duration-500 ease-cinematic hover:border-bone hover:bg-bone hover:text-ink sm:w-auto"
+                  >
+                    <WhatsAppGlyph />
+                    {t('nav.whatsapp')}
+                  </a>
+                </div>
+
+                <div
+                  data-reveal
+                  className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-bone/12 pt-8"
+                >
+                  <Eyebrow invert>{t('contact.follow')}</Eyebrow>
+                  <a
+                    href={agency.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/10 text-bone/85 ring-1 ring-inset ring-white/15 transition-colors duration-500 ease-cinematic hover:bg-brand-500 hover:text-white hover:ring-brand-500"
+                  >
+                    <FacebookGlyph />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </Section>
 
       <Section tone="white">
-        <div ref={map} className="shell">
+        <div ref={mapBlock} className="shell">
           <SectionHead
             eyebrow={t('about.office')}
             title={t('contact.map.title')}
-            sub={`${agency.address.street}, ${agency.address.postcode} ${agency.address.city} (${agency.address.province})`}
+            sub={`${agency.address.street}, ${postal}`}
           />
-          <div data-reveal className="mt-12">
+          {/* Matted in a hairline frame so the OSM tiles read as a plate on the
+              page rather than a hole cut out of it. */}
+          <div
+            data-reveal
+            className="mt-12 overflow-hidden rounded-[3px] border border-ink/10 shadow-lift lg:mt-16"
+          >
             <PropertyMap
               lat={agency.geo.lat}
               lng={agency.geo.lng}

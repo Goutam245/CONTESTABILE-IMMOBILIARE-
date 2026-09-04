@@ -12,17 +12,16 @@
     <meta name="description" content="Contestabile Immobiliare: dal 1989 vendita e affitto di appartamenti, palazzi, ville e locali commerciali a Caserta e in provincia. Viale Alberto Beneduce 23, Caserta." />
     <!--
       Home hero, fetched before any JavaScript parses. srcset/sizes mirror
-      SmartImage's own (900w card / 1700w full at 100vw) so the browser picks
-      the same file it would have picked anyway — no wasted bytes.
-      KEEP IN SYNC with HEROES.home in src/data/heroes.ts.
+      This is the home hero VIDEO's poster — painted immediately as the
+      section's background while the loop downloads, and the whole hero for
+      anyone on reduced motion or Data Saver.
+      KEEP IN SYNC with HERO_VIDEO.home in src/data/heroes.ts.
     -->
     <link
       rel="preload"
       as="image"
       fetchpriority="high"
-      href="/properties/vv-acquariello-135-02-card.webp?v=1"
-      imagesrcset="/properties/vv-acquariello-135-02-card.webp?v=1 900w, /properties/vv-acquariello-135-02-full.webp?v=1 1700w"
-      imagesizes="100vw"
+      href="/video/home-hero-poster.webp"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
