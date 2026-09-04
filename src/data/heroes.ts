@@ -31,6 +31,26 @@ export function heroPhoto(key: HeroKey): PhotoRendition | undefined {
   return photosFor(property).find((p) => p.id === photo)
 }
 
+/**
+ * The client's hero footage, one loop per page.
+ *
+ * These take over from the stills above. The photographs stay defined because
+ * they remain the fallback whenever the video is suppressed — reduced motion,
+ * Data Saver, a 2G estimate — so every hero still has a considered still frame
+ * behind it rather than black.
+ */
+const HERO_VIDEO: Record<HeroKey, string> = {
+  home: 'home-hero',
+  properties: 'immobili-hero',
+  about: 'agenzia-hero',
+  contact: 'contatti-hero',
+}
+
+export const heroVideo = (key: HeroKey): string => HERO_VIDEO[key]
+
+/** The mid-homepage interlude — not a hero, a full-bleed break in the page. */
+export const INTERLUDE_VIDEO = 'home-interlude'
+
 /** Descriptive alt text for each hero. */
 export const heroAlt: Record<HeroKey, string> = {
   home: 'Villa indipendente a Caiazzo — facciata con terrazza sotto cielo aperto',
