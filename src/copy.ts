@@ -46,6 +46,52 @@ const copy = {
     'home.stats.immobili': 'Immobili trattati',
     'home.stats.comuni': 'Comuni seguiti',
     'home.stats.soddisfazione': 'Clienti soddisfatti',
+    // Auto-cycling lines beside the In Cifre figures. Brand-voice statements
+    // about how the agency works, not claims that need evidencing.
+    'ticker.1': 'Ogni immobile visto di persona.',
+    'ticker.2': 'Un solo mercato, dal 1989.',
+    'ticker.3': 'Misurato, fotografato, raccontato per quello che è.',
+    'ticker.4': 'Se una casa è affittata, lo scriviamo.',
+
+    // The Agenzia timeline. Milestones 1-2 are evidenced (founding year and
+    // the address on the letterhead); 3-4 are the agency's positioning, not
+    // dated history — flagged in-page as editorial.
+    'timeline.eyebrow': 'La nostra storia',
+    'timeline.title.a': 'Trentasette anni,',
+    'timeline.title.b': 'un solo indirizzo.',
+    'timeline.1.heading': 'Apre l’agenzia',
+    'timeline.1.body':
+      'Contestabile Immobiliare apre a Caserta, in Viale Alberto Beneduce. È ancora lì.',
+    'timeline.2.heading': 'Il raggio d’azione',
+    'timeline.2.body':
+      'Dal centro storico di Caserta ai comuni della cintura, fino all’alto casertano: Caiazzo, Alvignano, Marzano Appio.',
+    'timeline.3.heading': 'Il portafoglio di oggi',
+    'timeline.3.body':
+      'Vendita e locazione, residenziale e commerciale. Ogni scheda pubblicata con consistenze reali, classe energetica e stato di occupazione.',
+    'timeline.4.heading': 'Il metodo',
+    'timeline.4.body':
+      'Una casa alla volta: vista di persona, misurata, fotografata da noi. Preferiamo una telefonata in meno e un cliente informato in più.',
+    'timeline.note':
+      'Le ultime due voci descrivono il nostro modo di lavorare, non date storiche — da rivedere con l’agenzia.',
+    'timeline.comuni': 'comuni seguiti',
+    'timeline.immobili': 'immobili in portafoglio',
+
+    // The 3D photo ring.
+    'ring.eyebrow': 'Il portafoglio',
+    'ring.title': 'Trenta scatti, quattordici indirizzi.',
+    'ring.sub':
+      'Ogni fotografia è nostra, scattata negli immobili che trattiamo. Fermate l’anello su una qualsiasi per vedere di quale casa si tratta.',
+    'ring.hint': 'Passate sopra per fermare · toccate per aprire',
+    'ring.open': 'Vedi la scheda completa',
+
+    // Mid-page cinematic break, between the featured rail and the story.
+    'interlude.eyebrow': 'Contestabile Immobiliare',
+    'interlude.title.a': 'Una casa alla volta,',
+    'interlude.title.b': 'dal 1989.',
+    'interlude.sub':
+      'Non pubblichiamo un immobile che non abbiamo visto, misurato e fotografato di persona. È il motivo per cui una scheda vale una visita.',
+    'interlude.cta': 'Guarda il portafoglio',
+
     'home.testimonials.eyebrow': 'Dicono di noi',
     'home.testimonials.title': 'Chi ci ha affidato una casa',
     'home.testimonials.note': 'Testimonianze di esempio, in attesa di quelle reali.',

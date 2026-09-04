@@ -8,6 +8,8 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import HomeHero from '@/components/HomeHero'
+import CinematicInterlude from '@/components/CinematicInterlude'
+import PhotoRing from '@/components/PhotoRing'
 import FilterBar, { EMPTY_FILTERS, applyFilters, type Filters } from '@/components/FilterBar'
 import PropertyCard from '@/components/PropertyCard'
 import SmartImage from '@/components/SmartImage'
@@ -76,14 +78,18 @@ export default function Home() {
     <>
       <HomeHero />
 
-      {/* No reveal here: the search must be usable the instant the hero leaves. */}
-      <Section tone="bone" className="py-14 sm:py-16 lg:py-20">
+      {/* No reveal here: the search must be usable the instant the hero leaves.
+          The search band and the results below it are one unit, so they share a
+          single gap instead of each paying a full section's padding — together
+          they were putting 331px of empty ground between the bar and the
+          "In evidenza" heading. */}
+      <Section tone="white" className="pb-10 pt-14 sm:pb-12 sm:pt-16 lg:pb-14 lg:pt-20">
         <div className="shell">
           <FilterBar compact value={filters} onChange={setFilters} resultCount={resultCount} />
         </div>
       </Section>
 
-      <Section tone="white">
+      <Section tone="bone" className="pt-12 sm:pt-14 lg:pt-16">
         <div ref={featuredRef} className="shell">
           <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-6">
             <SectionHead
@@ -122,7 +128,15 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section tone="bone">
+      {/* The portfolio as one object, straight after the grid that samples it. */}
+      <PhotoRing />
+
+      {/* Full-bleed break between the listings and the story — the page opens
+          out to the edges here, which keeps a long scroll from reading as a
+          stack of same-shaped blocks. */}
+      <CinematicInterlude />
+
+      <Section tone="ink">
         <div ref={aboutRef} className="shell grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <div data-reveal>
@@ -169,18 +183,21 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section tone="ink">
+      <Section tone="sand">
         <div className="shell">
           {/* StatsBand runs its own reveal, so the ref stays off its subtree. */}
           <div ref={statsRef}>
-            <Eyebrow invert>{t('home.stats.eyebrow')}</Eyebrow>
-            <Rule invert className="mt-6" />
+            {/* Light ground: the plain eyebrow, not the solid chip that exists
+                for text sitting over a photograph, and a rule that is visible
+                on beige rather than the bone/15 hairline for dark sections. */}
+            <Eyebrow>{t('home.stats.eyebrow')}</Eyebrow>
+            <Rule className="mt-6" />
           </div>
           <StatsBand className="mt-12" />
         </div>
       </Section>
 
-      <Section tone="white">
+      <Section tone="bone">
         <div ref={quotesRef} className="shell">
           <SectionHead
             align="center"

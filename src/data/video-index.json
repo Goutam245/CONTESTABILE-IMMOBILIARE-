@@ -1,0 +1,42 @@
+{
+ "home-hero": {
+  "poster": "home-hero-poster.webp",
+  "w": 2560,
+  "h": 1440,
+  "duration": 13.85,
+  "desktop": "home-hero-desktop.mp4",
+  "mobile": "home-hero-mobile.mp4"
+ },
+ "immobili-hero": {
+  "poster": "immobili-hero-poster.webp",
+  "w": 3840,
+  "h": 2160,
+  "duration": 11.73,
+  "desktop": "immobili-hero-desktop.mp4",
+  "mobile": "immobili-hero-mobile.mp4"
+ },
+ "agenzia-hero": {
+  "poster": "agenzia-hero-poster.webp",
+  "w": 3840,
+  "h": 2160,
+  "duration": 15,
+  "desktop": "agenzia-hero-desktop.mp4",
+  "mobile": "agenzia-hero-mobile.mp4"
+ },
+ "contatti-hero": {
+  "poster": "contatti-hero-poster.webp",
+  "w": 3840,
+  "h": 2160,
+  "duration": 8.76,
+  "desktop": "contatti-hero-desktop.mp4",
+  "mobile": "contatti-hero-mobile.mp4"
+ },
+ "home-interlude": {
+  "poster": "home-interlude-poster.webp",
+  "w": 3840,
+  "h": 2160,
+  "duration": 20,
+  "desktop": "home-interlude-desktop.mp4",
+  "mobile": "home-interlude-mobile.mp4"
+ }
+}
