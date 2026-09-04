@@ -26,10 +26,35 @@ export default function ScrollToTop() {
 
     scrollToTop(true)
 
-    // The route's real height arrives a frame or two later; without this a
-    // long page can settle back to the offset it had before navigating.
-    const raf = window.requestAnimationFrame(() => scrollToTop(true))
-    return () => window.cancelAnimationFrame(raf)
+    // The route's real height arrives a moment later, and the browser can
+    // settle back to its remembered offset in between — so the reset is
+    // re-asserted once, shortly after.
+    //
+    // Deliberately a timeout rather than requestAnimationFrame: rAF is
+    // suspended while a tab is hidden, so a frame queued here would sit unfired
+    // until the tab came forward and then yank a reader who had already
+    // scrolled back to the top. Any real input cancels it for the same reason.
+    let timer = 0
+    const cancel = () => {
+      if (timer) window.clearTimeout(timer)
+      timer = 0
+    }
+    timer = window.setTimeout(() => {
+      timer = 0
+      scrollToTop(true)
+    }, 80)
+
+    const opts = { passive: true, once: true } as const
+    window.addEventListener('wheel', cancel, opts)
+    window.addEventListener('touchstart', cancel, opts)
+    window.addEventListener('keydown', cancel, opts)
+
+    return () => {
+      cancel()
+      window.removeEventListener('wheel', cancel)
+      window.removeEventListener('touchstart', cancel)
+      window.removeEventListener('keydown', cancel)
+    }
   }, [pathname, search])
 
   return null
