@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --shell-x: clamp(1.25rem, 5vw, 5.5rem);
+    --nav-h: 80px;
+  }
+
+  * { -webkit-tap-highlight-color: transparent; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  /* Lenis drives scrolling; native smooth would fight it. */
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+
+  body {
+    @apply bg-bone text-ink font-sans antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'cv11' 1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-light text-balance;
+    font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  }
+
+  ::selection { background: theme('colors.brand.500'); color: #fff; }
+
+  :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid theme('colors.brand.500');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .shell { @apply mx-auto w-full max-w-shell; padding-inline: var(--shell-x); }
+
+  /**
+   * Kicker above a heading. One definition for the whole site.
+   *
+   * On light grounds: semibold, tracked, in the deep logo orange (4.9:1 on
+   * bone), opened by a short tick. Over a photograph it switches to a solid
+   * chip — see .eyebrow-invert.
+   */
+  .eyebrow {
+    @apply relative inline-flex w-fit items-center gap-2.5 font-sans text-[12px]
+           font-semibold uppercase tracking-eyebrow text-terra-700;
+  }
+  .eyebrow::before {
+    content: '';
+    @apply h-[2px] w-5 shrink-0 bg-terra-600;
+  }
+
+  /**
+   * Over a photograph the label becomes a solid chip. A tinted orange was
+   * tried first and measured 2.5–3.3:1 against the brighter heroes — it read as
+   * washed-out pink. White on solid terra-600 is 4.7:1 no matter what is behind
+   * it, and keeps the brand orange fully saturated.
+   */
+  .eyebrow-invert {
+    @apply gap-0 rounded-[2px] bg-terra-600 px-3 py-1.5 text-white;
+  }
+  .eyebrow-invert::before { @apply hidden; }
+
+  .section { @apply py-20 sm:py-24 lg:py-32; }
+
+  /* Hairline rule with the logo orange as a short leading tick. */
+  .rule-tick {
+    @apply relative pl-[38px];
+  }
+  .rule-tick::before {
+    content: '';
+    @apply absolute left-0 top-1/2 h-px w-[26px] -translate-y-1/2 bg-terra-500;
+  }
+
+  /*
+   * The house link sweep. Colour is transitioned here rather than with a
+   * `transition-colors` utility: that utility is emitted later in the sheet at
+   * equal specificity, so it rewrote `transition-property` and the sweep never
+   * ran at any of its call sites.
+   */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition:
+      background-size .45s cubic-bezier(0.16, 1, 0.3, 1),
+      color .45s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .link-underline:hover { background-size: 100% 1px; }
+
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+
+  /* Field style — deliberately unlike the old Bootstrap-ish boxes. */
+  .field {
+    @apply w-full border-0 border-b border-ink/40 bg-transparent px-0 py-3
+           font-sans text-[15px] text-ink placeholder:text-ink-faint
+           transition-colors duration-300 focus:border-brand-500 focus:outline-none;
+  }
+  .field-invert {
+    @apply border-bone/45 text-bone placeholder:text-bone/60 focus:border-brand-300;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200]
+           focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:text-bone;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+
+  /**
+   * Hero scrim. Applied through <HeroMedia>, never hand-rolled per page.
+   *
+   * Narrow viewports first: the copy spans the full width, so the darkening
+   * comes from below. A left-weighted wash was tried here too and simply dimmed
+   * the whole frame, because at 375–768px the entire picture sits inside the
+   * gradient's first stops.
+   */
+  .scrim-hero {
+    background: linear-gradient(
+      to top,
+      rgba(10,20,16,.86) 0%,
+      rgba(10,20,16,.62) 30%,
+      rgba(10,20,16,.24) 58%,
+      rgba(10,20,16,.06) 100%
+    );
+  }
+
+  /*
+   * From `md` the copy occupies the lower left and there is real estate to the
+   * right worth keeping bright, so the wash turns directional and the bottom
+   * ramp eases off.
+   */
+  @media (min-width: 768px) {
+    .scrim-hero {
+      background:
+        linear-gradient(
+          to right,
+          rgba(10,20,16,.86) 0%,
+          rgba(10,20,16,.60) 32%,
+          rgba(10,20,16,.20) 64%,
+          rgba(10,20,16,.04) 100%
+        ),
+        linear-gradient(
+          to top,
+          rgba(10,20,16,.58) 0%,
+          rgba(10,20,16,.24) 36%,
+          transparent 68%
+        );
+    }
+  }
+
+  /**
+   * Optional extra darkening along the top edge, for sections that put text up
+   * there — the detail page's back-link and Rif. row sit just under the header,
+   * where the bottom-up ramp is weakest. Applied globally it crushed the top
+   * half of brighter hero photographs to near-black, so it is opt-in.
+   */
+  .scrim-hero-top {
+    background: linear-gradient(
+      to bottom,
+      rgba(10,20,16,.58) 0%,
+      rgba(10,20,16,.20) 20%,
+      transparent 38%
+    );
+  }
+
+  /* Lighter variant for photos carrying only a caption or a tag. */
+  .scrim-panel {
+    background: linear-gradient(
+      to top,
+      rgba(10,20,16,.88) 0%,
+      rgba(10,20,16,.38) 52%,
+      transparent 88%
+    );
+  }
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.4'/%3E%3C/svg%3E");
+  }
+}

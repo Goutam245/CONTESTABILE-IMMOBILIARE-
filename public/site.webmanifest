@@ -1,0 +1,14 @@
+{
+  "name": "Contestabile Immobiliare",
+  "short_name": "Contestabile",
+  "description": "Agenzia immobiliare a Caserta dal 1989",
+  "lang": "it",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F3",
+  "theme_color": "#00812F",
+  "icons": [
+    { "src": "/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

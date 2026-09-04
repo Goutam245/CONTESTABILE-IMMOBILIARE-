@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#00812F" />
+    <title>Contestabile Immobiliare — Agenzia immobiliare a Caserta dal 1989</title>
+    <meta name="description" content="Contestabile Immobiliare: dal 1989 vendita e affitto di appartamenti, palazzi, ville e locali commerciali a Caserta e in provincia. Viale Alberto Beneduce 23, Caserta." />
+    <!--
+      Home hero, fetched before any JavaScript parses. srcset/sizes mirror
+      SmartImage's own (900w card / 1700w full at 100vw) so the browser picks
+      the same file it would have picked anyway — no wasted bytes.
+      KEEP IN SYNC with HEROES.home in src/data/heroes.ts.
+    -->
+    <link
+      rel="preload"
+      as="image"
+      fetchpriority="high"
+      href="/properties/vv-acquariello-135-02-card.webp?v=1"
+      imagesrcset="/properties/vv-acquariello-135-02-card.webp?v=1 900w, /properties/vv-acquariello-135-02-full.webp?v=1 1700w"
+      imagesizes="100vw"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200..700;1,9..144,200..600&family=Inter+Tight:ital,wght@0,300..700;1,300..500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

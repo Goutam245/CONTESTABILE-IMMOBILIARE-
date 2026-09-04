@@ -1,0 +1,2739 @@
+{
+ "af-gasparri-950": [
+  {
+   "id": "af-gasparri-950-01",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "af-gasparri-950-01-thumb.webp",
+   "card": "af-gasparri-950-01-card.webp",
+   "full": "af-gasparri-950-01-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-02",
+   "w": 526,
+   "h": 535,
+   "color": "#f8f8f8",
+   "thumb": "af-gasparri-950-02-thumb.webp",
+   "card": "af-gasparri-950-02-card.webp",
+   "full": "af-gasparri-950-02-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-03",
+   "w": 1600,
+   "h": 1200,
+   "color": "#c8b8b8",
+   "thumb": "af-gasparri-950-03-thumb.webp",
+   "card": "af-gasparri-950-03-card.webp",
+   "full": "af-gasparri-950-03-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-04",
+   "w": 1600,
+   "h": 1200,
+   "color": "#c8b8b8",
+   "thumb": "af-gasparri-950-04-thumb.webp",
+   "card": "af-gasparri-950-04-card.webp",
+   "full": "af-gasparri-950-04-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-05",
+   "w": 1600,
+   "h": 1200,
+   "color": "#a89888",
+   "thumb": "af-gasparri-950-05-thumb.webp",
+   "card": "af-gasparri-950-05-card.webp",
+   "full": "af-gasparri-950-05-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-06",
+   "w": 1600,
+   "h": 1200,
+   "color": "#785848",
+   "thumb": "af-gasparri-950-06-thumb.webp",
+   "card": "af-gasparri-950-06-card.webp",
+   "full": "af-gasparri-950-06-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-07",
+   "w": 1600,
+   "h": 1200,
+   "color": "#282828",
+   "thumb": "af-gasparri-950-07-thumb.webp",
+   "card": "af-gasparri-950-07-card.webp",
+   "full": "af-gasparri-950-07-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-08",
+   "w": 1080,
+   "h": 1440,
+   "color": "#c8b8a8",
+   "thumb": "af-gasparri-950-08-thumb.webp",
+   "card": "af-gasparri-950-08-card.webp",
+   "full": "af-gasparri-950-08-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-09",
+   "w": 1080,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "af-gasparri-950-09-thumb.webp",
+   "card": "af-gasparri-950-09-card.webp",
+   "full": "af-gasparri-950-09-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-10",
+   "w": 1600,
+   "h": 1200,
+   "color": "#a8a8a8",
+   "thumb": "af-gasparri-950-10-thumb.webp",
+   "card": "af-gasparri-950-10-card.webp",
+   "full": "af-gasparri-950-10-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-11",
+   "w": 1600,
+   "h": 1200,
+   "color": "#885838",
+   "thumb": "af-gasparri-950-11-thumb.webp",
+   "card": "af-gasparri-950-11-card.webp",
+   "full": "af-gasparri-950-11-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-12",
+   "w": 1080,
+   "h": 1440,
+   "color": "#a8a898",
+   "thumb": "af-gasparri-950-12-thumb.webp",
+   "card": "af-gasparri-950-12-card.webp",
+   "full": "af-gasparri-950-12-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-13",
+   "w": 1600,
+   "h": 1200,
+   "color": "#787868",
+   "thumb": "af-gasparri-950-13-thumb.webp",
+   "card": "af-gasparri-950-13-card.webp",
+   "full": "af-gasparri-950-13-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-14",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "af-gasparri-950-14-thumb.webp",
+   "card": "af-gasparri-950-14-card.webp",
+   "full": "af-gasparri-950-14-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-15",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "af-gasparri-950-15-thumb.webp",
+   "card": "af-gasparri-950-15-card.webp",
+   "full": "af-gasparri-950-15-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-16",
+   "w": 1600,
+   "h": 1200,
+   "color": "#98b8d8",
+   "thumb": "af-gasparri-950-16-thumb.webp",
+   "card": "af-gasparri-950-16-card.webp",
+   "full": "af-gasparri-950-16-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-17",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "af-gasparri-950-17-thumb.webp",
+   "card": "af-gasparri-950-17-card.webp",
+   "full": "af-gasparri-950-17-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-18",
+   "w": 1600,
+   "h": 1200,
+   "color": "#b8b8b8",
+   "thumb": "af-gasparri-950-18-thumb.webp",
+   "card": "af-gasparri-950-18-card.webp",
+   "full": "af-gasparri-950-18-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-19",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "af-gasparri-950-19-thumb.webp",
+   "card": "af-gasparri-950-19-card.webp",
+   "full": "af-gasparri-950-19-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-20",
+   "w": 1600,
+   "h": 1200,
+   "color": "#989888",
+   "thumb": "af-gasparri-950-20-thumb.webp",
+   "card": "af-gasparri-950-20-card.webp",
+   "full": "af-gasparri-950-20-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-21",
+   "w": 1600,
+   "h": 1200,
+   "color": "#987858",
+   "thumb": "af-gasparri-950-21-thumb.webp",
+   "card": "af-gasparri-950-21-card.webp",
+   "full": "af-gasparri-950-21-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-22",
+   "w": 1600,
+   "h": 1200,
+   "color": "#786858",
+   "thumb": "af-gasparri-950-22-thumb.webp",
+   "card": "af-gasparri-950-22-card.webp",
+   "full": "af-gasparri-950-22-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-23",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "af-gasparri-950-23-thumb.webp",
+   "card": "af-gasparri-950-23-card.webp",
+   "full": "af-gasparri-950-23-full.webp"
+  },
+  {
+   "id": "af-gasparri-950-24",
+   "w": 1600,
+   "h": 1200,
+   "color": "#786848",
+   "thumb": "af-gasparri-950-24-thumb.webp",
+   "card": "af-gasparri-950-24-card.webp",
+   "full": "af-gasparri-950-24-full.webp"
+  }
+ ],
+ "af-mazzocchi-600": [
+  {
+   "id": "af-mazzocchi-600-01",
+   "w": 960,
+   "h": 720,
+   "color": "#e8d8c8",
+   "thumb": "af-mazzocchi-600-01-thumb.webp",
+   "card": "af-mazzocchi-600-01-card.webp",
+   "full": "af-mazzocchi-600-01-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-02",
+   "w": 960,
+   "h": 720,
+   "color": "#c8b8a8",
+   "thumb": "af-mazzocchi-600-02-thumb.webp",
+   "card": "af-mazzocchi-600-02-card.webp",
+   "full": "af-mazzocchi-600-02-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-03",
+   "w": 960,
+   "h": 720,
+   "color": "#c8b8a8",
+   "thumb": "af-mazzocchi-600-03-thumb.webp",
+   "card": "af-mazzocchi-600-03-card.webp",
+   "full": "af-mazzocchi-600-03-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-04",
+   "w": 960,
+   "h": 720,
+   "color": "#d8c8b8",
+   "thumb": "af-mazzocchi-600-04-thumb.webp",
+   "card": "af-mazzocchi-600-04-card.webp",
+   "full": "af-mazzocchi-600-04-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-05",
+   "w": 960,
+   "h": 720,
+   "color": "#b8a898",
+   "thumb": "af-mazzocchi-600-05-thumb.webp",
+   "card": "af-mazzocchi-600-05-card.webp",
+   "full": "af-mazzocchi-600-05-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-06",
+   "w": 960,
+   "h": 720,
+   "color": "#180808",
+   "thumb": "af-mazzocchi-600-06-thumb.webp",
+   "card": "af-mazzocchi-600-06-card.webp",
+   "full": "af-mazzocchi-600-06-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-07",
+   "w": 960,
+   "h": 720,
+   "color": "#180808",
+   "thumb": "af-mazzocchi-600-07-thumb.webp",
+   "card": "af-mazzocchi-600-07-card.webp",
+   "full": "af-mazzocchi-600-07-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-08",
+   "w": 960,
+   "h": 720,
+   "color": "#e8d8c8",
+   "thumb": "af-mazzocchi-600-08-thumb.webp",
+   "card": "af-mazzocchi-600-08-card.webp",
+   "full": "af-mazzocchi-600-08-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-09",
+   "w": 960,
+   "h": 720,
+   "color": "#d8b898",
+   "thumb": "af-mazzocchi-600-09-thumb.webp",
+   "card": "af-mazzocchi-600-09-card.webp",
+   "full": "af-mazzocchi-600-09-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-10",
+   "w": 960,
+   "h": 720,
+   "color": "#d8c8a8",
+   "thumb": "af-mazzocchi-600-10-thumb.webp",
+   "card": "af-mazzocchi-600-10-card.webp",
+   "full": "af-mazzocchi-600-10-full.webp"
+  },
+  {
+   "id": "af-mazzocchi-600-11",
+   "w": 960,
+   "h": 720,
+   "color": "#e8d8c8",
+   "thumb": "af-mazzocchi-600-11-thumb.webp",
+   "card": "af-mazzocchi-600-11-card.webp",
+   "full": "af-mazzocchi-600-11-full.webp"
+  }
+ ],
+ "af-santantida-900": [
+  {
+   "id": "af-santantida-900-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8a898",
+   "thumb": "af-santantida-900-01-thumb.webp",
+   "card": "af-santantida-900-01-card.webp",
+   "full": "af-santantida-900-01-full.webp"
+  },
+  {
+   "id": "af-santantida-900-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8c8",
+   "thumb": "af-santantida-900-02-thumb.webp",
+   "card": "af-santantida-900-02-card.webp",
+   "full": "af-santantida-900-02-full.webp"
+  },
+  {
+   "id": "af-santantida-900-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8b8a8",
+   "thumb": "af-santantida-900-03-thumb.webp",
+   "card": "af-santantida-900-03-card.webp",
+   "full": "af-santantida-900-03-full.webp"
+  },
+  {
+   "id": "af-santantida-900-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8b8a8",
+   "thumb": "af-santantida-900-04-thumb.webp",
+   "card": "af-santantida-900-04-card.webp",
+   "full": "af-santantida-900-04-full.webp"
+  },
+  {
+   "id": "af-santantida-900-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8d8d8",
+   "thumb": "af-santantida-900-05-thumb.webp",
+   "card": "af-santantida-900-05-card.webp",
+   "full": "af-santantida-900-05-full.webp"
+  },
+  {
+   "id": "af-santantida-900-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8d8d8",
+   "thumb": "af-santantida-900-06-thumb.webp",
+   "card": "af-santantida-900-06-card.webp",
+   "full": "af-santantida-900-06-full.webp"
+  },
+  {
+   "id": "af-santantida-900-07",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-07-thumb.webp",
+   "card": "af-santantida-900-07-card.webp",
+   "full": "af-santantida-900-07-full.webp"
+  },
+  {
+   "id": "af-santantida-900-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8b8",
+   "thumb": "af-santantida-900-08-thumb.webp",
+   "card": "af-santantida-900-08-card.webp",
+   "full": "af-santantida-900-08-full.webp"
+  },
+  {
+   "id": "af-santantida-900-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-09-thumb.webp",
+   "card": "af-santantida-900-09-card.webp",
+   "full": "af-santantida-900-09-full.webp"
+  },
+  {
+   "id": "af-santantida-900-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-10-thumb.webp",
+   "card": "af-santantida-900-10-card.webp",
+   "full": "af-santantida-900-10-full.webp"
+  },
+  {
+   "id": "af-santantida-900-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8c8",
+   "thumb": "af-santantida-900-11-thumb.webp",
+   "card": "af-santantida-900-11-card.webp",
+   "full": "af-santantida-900-11-full.webp"
+  },
+  {
+   "id": "af-santantida-900-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "af-santantida-900-12-thumb.webp",
+   "card": "af-santantida-900-12-card.webp",
+   "full": "af-santantida-900-12-full.webp"
+  },
+  {
+   "id": "af-santantida-900-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-13-thumb.webp",
+   "card": "af-santantida-900-13-card.webp",
+   "full": "af-santantida-900-13-full.webp"
+  },
+  {
+   "id": "af-santantida-900-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "af-santantida-900-14-thumb.webp",
+   "card": "af-santantida-900-14-card.webp",
+   "full": "af-santantida-900-14-full.webp"
+  },
+  {
+   "id": "af-santantida-900-15",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8a898",
+   "thumb": "af-santantida-900-15-thumb.webp",
+   "card": "af-santantida-900-15-card.webp",
+   "full": "af-santantida-900-15-full.webp"
+  },
+  {
+   "id": "af-santantida-900-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8b8a8",
+   "thumb": "af-santantida-900-16-thumb.webp",
+   "card": "af-santantida-900-16-card.webp",
+   "full": "af-santantida-900-16-full.webp"
+  },
+  {
+   "id": "af-santantida-900-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8b8",
+   "thumb": "af-santantida-900-17-thumb.webp",
+   "card": "af-santantida-900-17-card.webp",
+   "full": "af-santantida-900-17-full.webp"
+  },
+  {
+   "id": "af-santantida-900-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8d8d8",
+   "thumb": "af-santantida-900-18-thumb.webp",
+   "card": "af-santantida-900-18-card.webp",
+   "full": "af-santantida-900-18-full.webp"
+  },
+  {
+   "id": "af-santantida-900-19",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-19-thumb.webp",
+   "card": "af-santantida-900-19-card.webp",
+   "full": "af-santantida-900-19-full.webp"
+  },
+  {
+   "id": "af-santantida-900-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "af-santantida-900-20-thumb.webp",
+   "card": "af-santantida-900-20-card.webp",
+   "full": "af-santantida-900-20-full.webp"
+  }
+ ],
+ "av-buozzi-130": [
+  {
+   "id": "av-buozzi-130-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#2888c8",
+   "thumb": "av-buozzi-130-01-thumb.webp",
+   "card": "av-buozzi-130-01-card.webp",
+   "full": "av-buozzi-130-01-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#6898c8",
+   "thumb": "av-buozzi-130-02-thumb.webp",
+   "card": "av-buozzi-130-02-card.webp",
+   "full": "av-buozzi-130-02-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "av-buozzi-130-03-thumb.webp",
+   "card": "av-buozzi-130-03-card.webp",
+   "full": "av-buozzi-130-03-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8d8c8",
+   "thumb": "av-buozzi-130-04-thumb.webp",
+   "card": "av-buozzi-130-04-card.webp",
+   "full": "av-buozzi-130-04-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#68a8e8",
+   "thumb": "av-buozzi-130-05-thumb.webp",
+   "card": "av-buozzi-130-05-card.webp",
+   "full": "av-buozzi-130-05-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8c8",
+   "thumb": "av-buozzi-130-06-thumb.webp",
+   "card": "av-buozzi-130-06-card.webp",
+   "full": "av-buozzi-130-06-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-07",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "av-buozzi-130-07-thumb.webp",
+   "card": "av-buozzi-130-07-card.webp",
+   "full": "av-buozzi-130-07-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "av-buozzi-130-08-thumb.webp",
+   "card": "av-buozzi-130-08-card.webp",
+   "full": "av-buozzi-130-08-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-09",
+   "w": 1024,
+   "h": 768,
+   "color": "#c8c8c8",
+   "thumb": "av-buozzi-130-09-thumb.webp",
+   "card": "av-buozzi-130-09-card.webp",
+   "full": "av-buozzi-130-09-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-10",
+   "w": 1024,
+   "h": 768,
+   "color": "#c8c8c8",
+   "thumb": "av-buozzi-130-10-thumb.webp",
+   "card": "av-buozzi-130-10-card.webp",
+   "full": "av-buozzi-130-10-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-11",
+   "w": 768,
+   "h": 1024,
+   "color": "#583818",
+   "thumb": "av-buozzi-130-11-thumb.webp",
+   "card": "av-buozzi-130-11-card.webp",
+   "full": "av-buozzi-130-11-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-12",
+   "w": 1024,
+   "h": 768,
+   "color": "#b8a8a8",
+   "thumb": "av-buozzi-130-12-thumb.webp",
+   "card": "av-buozzi-130-12-card.webp",
+   "full": "av-buozzi-130-12-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-13",
+   "w": 1024,
+   "h": 768,
+   "color": "#888878",
+   "thumb": "av-buozzi-130-13-thumb.webp",
+   "card": "av-buozzi-130-13-card.webp",
+   "full": "av-buozzi-130-13-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-14",
+   "w": 768,
+   "h": 1024,
+   "color": "#686868",
+   "thumb": "av-buozzi-130-14-thumb.webp",
+   "card": "av-buozzi-130-14-card.webp",
+   "full": "av-buozzi-130-14-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-15",
+   "w": 1024,
+   "h": 768,
+   "color": "#787878",
+   "thumb": "av-buozzi-130-15-thumb.webp",
+   "card": "av-buozzi-130-15-card.webp",
+   "full": "av-buozzi-130-15-full.webp"
+  },
+  {
+   "id": "av-buozzi-130-16",
+   "w": 1024,
+   "h": 768,
+   "color": "#988888",
+   "thumb": "av-buozzi-130-16-thumb.webp",
+   "card": "av-buozzi-130-16-card.webp",
+   "full": "av-buozzi-130-16-full.webp"
+  }
+ ],
+ "av-campania-180": [
+  {
+   "id": "av-campania-180-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "av-campania-180-01-thumb.webp",
+   "card": "av-campania-180-01-card.webp",
+   "full": "av-campania-180-01-full.webp"
+  },
+  {
+   "id": "av-campania-180-02",
+   "w": 1920,
+   "h": 1625,
+   "color": "#f8f8f8",
+   "thumb": "av-campania-180-02-thumb.webp",
+   "card": "av-campania-180-02-card.webp",
+   "full": "av-campania-180-02-full.webp"
+  },
+  {
+   "id": "av-campania-180-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "av-campania-180-03-thumb.webp",
+   "card": "av-campania-180-03-card.webp",
+   "full": "av-campania-180-03-full.webp"
+  },
+  {
+   "id": "av-campania-180-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "av-campania-180-04-thumb.webp",
+   "card": "av-campania-180-04-card.webp",
+   "full": "av-campania-180-04-full.webp"
+  },
+  {
+   "id": "av-campania-180-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "av-campania-180-05-thumb.webp",
+   "card": "av-campania-180-05-card.webp",
+   "full": "av-campania-180-05-full.webp"
+  },
+  {
+   "id": "av-campania-180-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "av-campania-180-06-thumb.webp",
+   "card": "av-campania-180-06-card.webp",
+   "full": "av-campania-180-06-full.webp"
+  },
+  {
+   "id": "av-campania-180-07",
+   "w": 1080,
+   "h": 1440,
+   "color": "#586858",
+   "thumb": "av-campania-180-07-thumb.webp",
+   "card": "av-campania-180-07-card.webp",
+   "full": "av-campania-180-07-full.webp"
+  },
+  {
+   "id": "av-campania-180-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#484838",
+   "thumb": "av-campania-180-08-thumb.webp",
+   "card": "av-campania-180-08-card.webp",
+   "full": "av-campania-180-08-full.webp"
+  },
+  {
+   "id": "av-campania-180-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "av-campania-180-09-thumb.webp",
+   "card": "av-campania-180-09-card.webp",
+   "full": "av-campania-180-09-full.webp"
+  },
+  {
+   "id": "av-campania-180-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "av-campania-180-10-thumb.webp",
+   "card": "av-campania-180-10-card.webp",
+   "full": "av-campania-180-10-full.webp"
+  },
+  {
+   "id": "av-campania-180-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787868",
+   "thumb": "av-campania-180-11-thumb.webp",
+   "card": "av-campania-180-11-card.webp",
+   "full": "av-campania-180-11-full.webp"
+  },
+  {
+   "id": "av-campania-180-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585848",
+   "thumb": "av-campania-180-12-thumb.webp",
+   "card": "av-campania-180-12-card.webp",
+   "full": "av-campania-180-12-full.webp"
+  },
+  {
+   "id": "av-campania-180-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585848",
+   "thumb": "av-campania-180-13-thumb.webp",
+   "card": "av-campania-180-13-card.webp",
+   "full": "av-campania-180-13-full.webp"
+  },
+  {
+   "id": "av-campania-180-14",
+   "w": 1080,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "av-campania-180-14-thumb.webp",
+   "card": "av-campania-180-14-card.webp",
+   "full": "av-campania-180-14-full.webp"
+  },
+  {
+   "id": "av-campania-180-15",
+   "w": 1920,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "av-campania-180-15-thumb.webp",
+   "card": "av-campania-180-15-card.webp",
+   "full": "av-campania-180-15-full.webp"
+  },
+  {
+   "id": "av-campania-180-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "av-campania-180-16-thumb.webp",
+   "card": "av-campania-180-16-card.webp",
+   "full": "av-campania-180-16-full.webp"
+  },
+  {
+   "id": "av-campania-180-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888878",
+   "thumb": "av-campania-180-17-thumb.webp",
+   "card": "av-campania-180-17-card.webp",
+   "full": "av-campania-180-17-full.webp"
+  },
+  {
+   "id": "av-campania-180-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "av-campania-180-18-thumb.webp",
+   "card": "av-campania-180-18-card.webp",
+   "full": "av-campania-180-18-full.webp"
+  },
+  {
+   "id": "av-campania-180-19",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "av-campania-180-19-thumb.webp",
+   "card": "av-campania-180-19-card.webp",
+   "full": "av-campania-180-19-full.webp"
+  },
+  {
+   "id": "av-campania-180-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#586868",
+   "thumb": "av-campania-180-20-thumb.webp",
+   "card": "av-campania-180-20-card.webp",
+   "full": "av-campania-180-20-full.webp"
+  },
+  {
+   "id": "av-campania-180-21",
+   "w": 1920,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "av-campania-180-21-thumb.webp",
+   "card": "av-campania-180-21-card.webp",
+   "full": "av-campania-180-21-full.webp"
+  },
+  {
+   "id": "av-campania-180-22",
+   "w": 1920,
+   "h": 1440,
+   "color": "#081818",
+   "thumb": "av-campania-180-22-thumb.webp",
+   "card": "av-campania-180-22-card.webp",
+   "full": "av-campania-180-22-full.webp"
+  },
+  {
+   "id": "av-campania-180-23",
+   "w": 1920,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "av-campania-180-23-thumb.webp",
+   "card": "av-campania-180-23-card.webp",
+   "full": "av-campania-180-23-full.webp"
+  },
+  {
+   "id": "av-campania-180-24",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585848",
+   "thumb": "av-campania-180-24-thumb.webp",
+   "card": "av-campania-180-24-card.webp",
+   "full": "av-campania-180-24-full.webp"
+  },
+  {
+   "id": "av-campania-180-25",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787868",
+   "thumb": "av-campania-180-25-thumb.webp",
+   "card": "av-campania-180-25-card.webp",
+   "full": "av-campania-180-25-full.webp"
+  },
+  {
+   "id": "av-campania-180-26",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "av-campania-180-26-thumb.webp",
+   "card": "av-campania-180-26-card.webp",
+   "full": "av-campania-180-26-full.webp"
+  },
+  {
+   "id": "av-campania-180-27",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8b8a8",
+   "thumb": "av-campania-180-27-thumb.webp",
+   "card": "av-campania-180-27-card.webp",
+   "full": "av-campania-180-27-full.webp"
+  },
+  {
+   "id": "av-campania-180-28",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8b8a8",
+   "thumb": "av-campania-180-28-thumb.webp",
+   "card": "av-campania-180-28-card.webp",
+   "full": "av-campania-180-28-full.webp"
+  },
+  {
+   "id": "av-campania-180-29",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686858",
+   "thumb": "av-campania-180-29-thumb.webp",
+   "card": "av-campania-180-29-card.webp",
+   "full": "av-campania-180-29-full.webp"
+  },
+  {
+   "id": "av-campania-180-30",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "av-campania-180-30-thumb.webp",
+   "card": "av-campania-180-30-card.webp",
+   "full": "av-campania-180-30-full.webp"
+  }
+ ],
+ "av-ferrante-210": [
+  {
+   "id": "av-ferrante-210-01",
+   "w": 1600,
+   "h": 1200,
+   "color": "#988878",
+   "thumb": "av-ferrante-210-01-thumb.webp",
+   "card": "av-ferrante-210-01-card.webp",
+   "full": "av-ferrante-210-01-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-02",
+   "w": 1018,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "av-ferrante-210-02-thumb.webp",
+   "card": "av-ferrante-210-02-card.webp",
+   "full": "av-ferrante-210-02-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-03",
+   "w": 1600,
+   "h": 1200,
+   "color": "#c8e8f8",
+   "thumb": "av-ferrante-210-03-thumb.webp",
+   "card": "av-ferrante-210-03-card.webp",
+   "full": "av-ferrante-210-03-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-04",
+   "w": 1600,
+   "h": 1200,
+   "color": "#c8e8f8",
+   "thumb": "av-ferrante-210-04-thumb.webp",
+   "card": "av-ferrante-210-04-card.webp",
+   "full": "av-ferrante-210-04-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-05",
+   "w": 1080,
+   "h": 1440,
+   "color": "#483828",
+   "thumb": "av-ferrante-210-05-thumb.webp",
+   "card": "av-ferrante-210-05-card.webp",
+   "full": "av-ferrante-210-05-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-06",
+   "w": 1600,
+   "h": 1200,
+   "color": "#d8d8e8",
+   "thumb": "av-ferrante-210-06-thumb.webp",
+   "card": "av-ferrante-210-06-card.webp",
+   "full": "av-ferrante-210-06-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-07",
+   "w": 1600,
+   "h": 1200,
+   "color": "#383828",
+   "thumb": "av-ferrante-210-07-thumb.webp",
+   "card": "av-ferrante-210-07-card.webp",
+   "full": "av-ferrante-210-07-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-08",
+   "w": 1600,
+   "h": 1200,
+   "color": "#988878",
+   "thumb": "av-ferrante-210-08-thumb.webp",
+   "card": "av-ferrante-210-08-card.webp",
+   "full": "av-ferrante-210-08-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-09",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989888",
+   "thumb": "av-ferrante-210-09-thumb.webp",
+   "card": "av-ferrante-210-09-card.webp",
+   "full": "av-ferrante-210-09-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-10",
+   "w": 1080,
+   "h": 1440,
+   "color": "#a8a8a8",
+   "thumb": "av-ferrante-210-10-thumb.webp",
+   "card": "av-ferrante-210-10-card.webp",
+   "full": "av-ferrante-210-10-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-11",
+   "w": 1080,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "av-ferrante-210-11-thumb.webp",
+   "card": "av-ferrante-210-11-card.webp",
+   "full": "av-ferrante-210-11-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-12",
+   "w": 1600,
+   "h": 1200,
+   "color": "#483838",
+   "thumb": "av-ferrante-210-12-thumb.webp",
+   "card": "av-ferrante-210-12-card.webp",
+   "full": "av-ferrante-210-12-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-13",
+   "w": 1080,
+   "h": 1440,
+   "color": "#887878",
+   "thumb": "av-ferrante-210-13-thumb.webp",
+   "card": "av-ferrante-210-13-card.webp",
+   "full": "av-ferrante-210-13-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-14",
+   "w": 1600,
+   "h": 1200,
+   "color": "#282818",
+   "thumb": "av-ferrante-210-14-thumb.webp",
+   "card": "av-ferrante-210-14-card.webp",
+   "full": "av-ferrante-210-14-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-15",
+   "w": 1600,
+   "h": 1200,
+   "color": "#282818",
+   "thumb": "av-ferrante-210-15-thumb.webp",
+   "card": "av-ferrante-210-15-card.webp",
+   "full": "av-ferrante-210-15-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-16",
+   "w": 1600,
+   "h": 1200,
+   "color": "#887868",
+   "thumb": "av-ferrante-210-16-thumb.webp",
+   "card": "av-ferrante-210-16-card.webp",
+   "full": "av-ferrante-210-16-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-17",
+   "w": 1600,
+   "h": 1200,
+   "color": "#989888",
+   "thumb": "av-ferrante-210-17-thumb.webp",
+   "card": "av-ferrante-210-17-card.webp",
+   "full": "av-ferrante-210-17-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-18",
+   "w": 1080,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "av-ferrante-210-18-thumb.webp",
+   "card": "av-ferrante-210-18-card.webp",
+   "full": "av-ferrante-210-18-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-19",
+   "w": 1600,
+   "h": 1200,
+   "color": "#484838",
+   "thumb": "av-ferrante-210-19-thumb.webp",
+   "card": "av-ferrante-210-19-card.webp",
+   "full": "av-ferrante-210-19-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-20",
+   "w": 1600,
+   "h": 1200,
+   "color": "#786858",
+   "thumb": "av-ferrante-210-20-thumb.webp",
+   "card": "av-ferrante-210-20-card.webp",
+   "full": "av-ferrante-210-20-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-21",
+   "w": 1600,
+   "h": 1200,
+   "color": "#786858",
+   "thumb": "av-ferrante-210-21-thumb.webp",
+   "card": "av-ferrante-210-21-card.webp",
+   "full": "av-ferrante-210-21-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-22",
+   "w": 1600,
+   "h": 1200,
+   "color": "#a89888",
+   "thumb": "av-ferrante-210-22-thumb.webp",
+   "card": "av-ferrante-210-22-card.webp",
+   "full": "av-ferrante-210-22-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-23",
+   "w": 1600,
+   "h": 1200,
+   "color": "#a89888",
+   "thumb": "av-ferrante-210-23-thumb.webp",
+   "card": "av-ferrante-210-23-card.webp",
+   "full": "av-ferrante-210-23-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-24",
+   "w": 1080,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "av-ferrante-210-24-thumb.webp",
+   "card": "av-ferrante-210-24-card.webp",
+   "full": "av-ferrante-210-24-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-25",
+   "w": 1600,
+   "h": 1200,
+   "color": "#888888",
+   "thumb": "av-ferrante-210-25-thumb.webp",
+   "card": "av-ferrante-210-25-card.webp",
+   "full": "av-ferrante-210-25-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-26",
+   "w": 1600,
+   "h": 1200,
+   "color": "#b8a898",
+   "thumb": "av-ferrante-210-26-thumb.webp",
+   "card": "av-ferrante-210-26-card.webp",
+   "full": "av-ferrante-210-26-full.webp"
+  },
+  {
+   "id": "av-ferrante-210-27",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988888",
+   "thumb": "av-ferrante-210-27-thumb.webp",
+   "card": "av-ferrante-210-27-card.webp",
+   "full": "av-ferrante-210-27-full.webp"
+  }
+ ],
+ "av-vanvitelli-330": [
+  {
+   "id": "av-vanvitelli-330-01",
+   "w": 838,
+   "h": 609,
+   "color": "#080808",
+   "thumb": "av-vanvitelli-330-01-thumb.webp",
+   "card": "av-vanvitelli-330-01-card.webp",
+   "full": "av-vanvitelli-330-01-full.webp"
+  },
+  {
+   "id": "av-vanvitelli-330-02",
+   "w": 774,
+   "h": 577,
+   "color": "#f8f8f8",
+   "thumb": "av-vanvitelli-330-02-thumb.webp",
+   "card": "av-vanvitelli-330-02-card.webp",
+   "full": "av-vanvitelli-330-02-full.webp"
+  }
+ ],
+ "na-matteotti-750": [
+  {
+   "id": "na-matteotti-750-01",
+   "w": 1195,
+   "h": 896,
+   "color": "#a89888",
+   "thumb": "na-matteotti-750-01-thumb.webp",
+   "card": "na-matteotti-750-01-card.webp",
+   "full": "na-matteotti-750-01-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-02",
+   "w": 1195,
+   "h": 896,
+   "color": "#989898",
+   "thumb": "na-matteotti-750-02-thumb.webp",
+   "card": "na-matteotti-750-02-card.webp",
+   "full": "na-matteotti-750-02-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-03",
+   "w": 1195,
+   "h": 896,
+   "color": "#b8b8b8",
+   "thumb": "na-matteotti-750-03-thumb.webp",
+   "card": "na-matteotti-750-03-card.webp",
+   "full": "na-matteotti-750-03-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-04",
+   "w": 1195,
+   "h": 896,
+   "color": "#a89888",
+   "thumb": "na-matteotti-750-04-thumb.webp",
+   "card": "na-matteotti-750-04-card.webp",
+   "full": "na-matteotti-750-04-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "na-matteotti-750-05-thumb.webp",
+   "card": "na-matteotti-750-05-card.webp",
+   "full": "na-matteotti-750-05-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8b8b8",
+   "thumb": "na-matteotti-750-06-thumb.webp",
+   "card": "na-matteotti-750-06-card.webp",
+   "full": "na-matteotti-750-06-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-07",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "na-matteotti-750-07-thumb.webp",
+   "card": "na-matteotti-750-07-card.webp",
+   "full": "na-matteotti-750-07-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#685848",
+   "thumb": "na-matteotti-750-08-thumb.webp",
+   "card": "na-matteotti-750-08-card.webp",
+   "full": "na-matteotti-750-08-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "na-matteotti-750-09-thumb.webp",
+   "card": "na-matteotti-750-09-card.webp",
+   "full": "na-matteotti-750-09-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787868",
+   "thumb": "na-matteotti-750-10-thumb.webp",
+   "card": "na-matteotti-750-10-card.webp",
+   "full": "na-matteotti-750-10-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-11",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "na-matteotti-750-11-thumb.webp",
+   "card": "na-matteotti-750-11-card.webp",
+   "full": "na-matteotti-750-11-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#685848",
+   "thumb": "na-matteotti-750-12-thumb.webp",
+   "card": "na-matteotti-750-12-card.webp",
+   "full": "na-matteotti-750-12-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887878",
+   "thumb": "na-matteotti-750-13-thumb.webp",
+   "card": "na-matteotti-750-13-card.webp",
+   "full": "na-matteotti-750-13-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-14",
+   "w": 1080,
+   "h": 1440,
+   "color": "#988888",
+   "thumb": "na-matteotti-750-14-thumb.webp",
+   "card": "na-matteotti-750-14-card.webp",
+   "full": "na-matteotti-750-14-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-15",
+   "w": 1080,
+   "h": 1440,
+   "color": "#483828",
+   "thumb": "na-matteotti-750-15-thumb.webp",
+   "card": "na-matteotti-750-15-card.webp",
+   "full": "na-matteotti-750-15-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-16",
+   "w": 1080,
+   "h": 1440,
+   "color": "#180808",
+   "thumb": "na-matteotti-750-16-thumb.webp",
+   "card": "na-matteotti-750-16-card.webp",
+   "full": "na-matteotti-750-16-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887878",
+   "thumb": "na-matteotti-750-17-thumb.webp",
+   "card": "na-matteotti-750-17-card.webp",
+   "full": "na-matteotti-750-17-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888878",
+   "thumb": "na-matteotti-750-18-thumb.webp",
+   "card": "na-matteotti-750-18-card.webp",
+   "full": "na-matteotti-750-18-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-19",
+   "w": 1920,
+   "h": 1440,
+   "color": "#989888",
+   "thumb": "na-matteotti-750-19-thumb.webp",
+   "card": "na-matteotti-750-19-card.webp",
+   "full": "na-matteotti-750-19-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8b8b8",
+   "thumb": "na-matteotti-750-20-thumb.webp",
+   "card": "na-matteotti-750-20-card.webp",
+   "full": "na-matteotti-750-20-full.webp"
+  },
+  {
+   "id": "na-matteotti-750-21",
+   "w": 1080,
+   "h": 1440,
+   "color": "#b8b8b8",
+   "thumb": "na-matteotti-750-21-thumb.webp",
+   "card": "na-matteotti-750-21-card.webp",
+   "full": "na-matteotti-750-21-full.webp"
+  }
+ ],
+ "nv-quartierenuovo-30": [
+  {
+   "id": "nv-quartierenuovo-30-01",
+   "w": 1024,
+   "h": 768,
+   "color": "#887868",
+   "thumb": "nv-quartierenuovo-30-01-thumb.webp",
+   "card": "nv-quartierenuovo-30-01-card.webp",
+   "full": "nv-quartierenuovo-30-01-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "nv-quartierenuovo-30-02-thumb.webp",
+   "card": "nv-quartierenuovo-30-02-card.webp",
+   "full": "nv-quartierenuovo-30-02-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-03",
+   "w": 1010,
+   "h": 501,
+   "color": "#f8f8f8",
+   "thumb": "nv-quartierenuovo-30-03-thumb.webp",
+   "card": "nv-quartierenuovo-30-03-card.webp",
+   "full": "nv-quartierenuovo-30-03-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-04",
+   "w": 1080,
+   "h": 1440,
+   "color": "#787868",
+   "thumb": "nv-quartierenuovo-30-04-thumb.webp",
+   "card": "nv-quartierenuovo-30-04-card.webp",
+   "full": "nv-quartierenuovo-30-04-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "nv-quartierenuovo-30-05-thumb.webp",
+   "card": "nv-quartierenuovo-30-05-card.webp",
+   "full": "nv-quartierenuovo-30-05-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8d8d8",
+   "thumb": "nv-quartierenuovo-30-06-thumb.webp",
+   "card": "nv-quartierenuovo-30-06-card.webp",
+   "full": "nv-quartierenuovo-30-06-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-07",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-07-thumb.webp",
+   "card": "nv-quartierenuovo-30-07-card.webp",
+   "full": "nv-quartierenuovo-30-07-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-08",
+   "w": 1080,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-08-thumb.webp",
+   "card": "nv-quartierenuovo-30-08-card.webp",
+   "full": "nv-quartierenuovo-30-08-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-09-thumb.webp",
+   "card": "nv-quartierenuovo-30-09-card.webp",
+   "full": "nv-quartierenuovo-30-09-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "nv-quartierenuovo-30-10-thumb.webp",
+   "card": "nv-quartierenuovo-30-10-card.webp",
+   "full": "nv-quartierenuovo-30-10-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "nv-quartierenuovo-30-11-thumb.webp",
+   "card": "nv-quartierenuovo-30-11-card.webp",
+   "full": "nv-quartierenuovo-30-11-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-12-thumb.webp",
+   "card": "nv-quartierenuovo-30-12-card.webp",
+   "full": "nv-quartierenuovo-30-12-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "nv-quartierenuovo-30-13-thumb.webp",
+   "card": "nv-quartierenuovo-30-13-card.webp",
+   "full": "nv-quartierenuovo-30-13-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-14",
+   "w": 1080,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "nv-quartierenuovo-30-14-thumb.webp",
+   "card": "nv-quartierenuovo-30-14-card.webp",
+   "full": "nv-quartierenuovo-30-14-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-15",
+   "w": 1080,
+   "h": 1440,
+   "color": "#686858",
+   "thumb": "nv-quartierenuovo-30-15-thumb.webp",
+   "card": "nv-quartierenuovo-30-15-card.webp",
+   "full": "nv-quartierenuovo-30-15-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-16",
+   "w": 1080,
+   "h": 1440,
+   "color": "#686858",
+   "thumb": "nv-quartierenuovo-30-16-thumb.webp",
+   "card": "nv-quartierenuovo-30-16-card.webp",
+   "full": "nv-quartierenuovo-30-16-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-17-thumb.webp",
+   "card": "nv-quartierenuovo-30-17-card.webp",
+   "full": "nv-quartierenuovo-30-17-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "nv-quartierenuovo-30-18-thumb.webp",
+   "card": "nv-quartierenuovo-30-18-card.webp",
+   "full": "nv-quartierenuovo-30-18-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-19",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8c8c8",
+   "thumb": "nv-quartierenuovo-30-19-thumb.webp",
+   "card": "nv-quartierenuovo-30-19-card.webp",
+   "full": "nv-quartierenuovo-30-19-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "nv-quartierenuovo-30-20-thumb.webp",
+   "card": "nv-quartierenuovo-30-20-card.webp",
+   "full": "nv-quartierenuovo-30-20-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-21",
+   "w": 1080,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "nv-quartierenuovo-30-21-thumb.webp",
+   "card": "nv-quartierenuovo-30-21-card.webp",
+   "full": "nv-quartierenuovo-30-21-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-22",
+   "w": 1195,
+   "h": 896,
+   "color": "#c8b8a8",
+   "thumb": "nv-quartierenuovo-30-22-thumb.webp",
+   "card": "nv-quartierenuovo-30-22-card.webp",
+   "full": "nv-quartierenuovo-30-22-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-23",
+   "w": 1195,
+   "h": 896,
+   "color": "#080808",
+   "thumb": "nv-quartierenuovo-30-23-thumb.webp",
+   "card": "nv-quartierenuovo-30-23-card.webp",
+   "full": "nv-quartierenuovo-30-23-full.webp"
+  },
+  {
+   "id": "nv-quartierenuovo-30-24",
+   "w": 1024,
+   "h": 768,
+   "color": "#887868",
+   "thumb": "nv-quartierenuovo-30-24-thumb.webp",
+   "card": "nv-quartierenuovo-30-24-card.webp",
+   "full": "nv-quartierenuovo-30-24-full.webp"
+  }
+ ],
+ "pv-alvignano-45": [
+  {
+   "id": "pv-alvignano-45-01",
+   "w": 1195,
+   "h": 896,
+   "color": "#381808",
+   "thumb": "pv-alvignano-45-01-thumb.webp",
+   "card": "pv-alvignano-45-01-card.webp",
+   "full": "pv-alvignano-45-01-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-02",
+   "w": 1195,
+   "h": 896,
+   "color": "#b8a898",
+   "thumb": "pv-alvignano-45-02-thumb.webp",
+   "card": "pv-alvignano-45-02-card.webp",
+   "full": "pv-alvignano-45-02-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8e8f8",
+   "thumb": "pv-alvignano-45-03-thumb.webp",
+   "card": "pv-alvignano-45-03-card.webp",
+   "full": "pv-alvignano-45-03-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-04",
+   "w": 1080,
+   "h": 1440,
+   "color": "#5898c8",
+   "thumb": "pv-alvignano-45-04-thumb.webp",
+   "card": "pv-alvignano-45-04-card.webp",
+   "full": "pv-alvignano-45-04-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-05",
+   "w": 1018,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "pv-alvignano-45-05-thumb.webp",
+   "card": "pv-alvignano-45-05-card.webp",
+   "full": "pv-alvignano-45-05-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-06",
+   "w": 1018,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "pv-alvignano-45-06-thumb.webp",
+   "card": "pv-alvignano-45-06-card.webp",
+   "full": "pv-alvignano-45-06-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-07",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989888",
+   "thumb": "pv-alvignano-45-07-thumb.webp",
+   "card": "pv-alvignano-45-07-card.webp",
+   "full": "pv-alvignano-45-07-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "pv-alvignano-45-08-thumb.webp",
+   "card": "pv-alvignano-45-08-card.webp",
+   "full": "pv-alvignano-45-08-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-alvignano-45-09-thumb.webp",
+   "card": "pv-alvignano-45-09-card.webp",
+   "full": "pv-alvignano-45-09-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "pv-alvignano-45-10-thumb.webp",
+   "card": "pv-alvignano-45-10-card.webp",
+   "full": "pv-alvignano-45-10-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-11",
+   "w": 1080,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "pv-alvignano-45-11-thumb.webp",
+   "card": "pv-alvignano-45-11-card.webp",
+   "full": "pv-alvignano-45-11-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-12",
+   "w": 1080,
+   "h": 1440,
+   "color": "#787878",
+   "thumb": "pv-alvignano-45-12-thumb.webp",
+   "card": "pv-alvignano-45-12-card.webp",
+   "full": "pv-alvignano-45-12-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-13",
+   "w": 1080,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-alvignano-45-13-thumb.webp",
+   "card": "pv-alvignano-45-13-card.webp",
+   "full": "pv-alvignano-45-13-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-alvignano-45-14-thumb.webp",
+   "card": "pv-alvignano-45-14-card.webp",
+   "full": "pv-alvignano-45-14-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-15",
+   "w": 1080,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-alvignano-45-15-thumb.webp",
+   "card": "pv-alvignano-45-15-card.webp",
+   "full": "pv-alvignano-45-15-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "pv-alvignano-45-16-thumb.webp",
+   "card": "pv-alvignano-45-16-card.webp",
+   "full": "pv-alvignano-45-16-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-17",
+   "w": 1080,
+   "h": 1440,
+   "color": "#282818",
+   "thumb": "pv-alvignano-45-17-thumb.webp",
+   "card": "pv-alvignano-45-17-card.webp",
+   "full": "pv-alvignano-45-17-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-18",
+   "w": 1080,
+   "h": 1440,
+   "color": "#483828",
+   "thumb": "pv-alvignano-45-18-thumb.webp",
+   "card": "pv-alvignano-45-18-card.webp",
+   "full": "pv-alvignano-45-18-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-19",
+   "w": 1080,
+   "h": 1440,
+   "color": "#5898c8",
+   "thumb": "pv-alvignano-45-19-thumb.webp",
+   "card": "pv-alvignano-45-19-card.webp",
+   "full": "pv-alvignano-45-19-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#181818",
+   "thumb": "pv-alvignano-45-20-thumb.webp",
+   "card": "pv-alvignano-45-20-card.webp",
+   "full": "pv-alvignano-45-20-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-21",
+   "w": 931,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "pv-alvignano-45-21-thumb.webp",
+   "card": "pv-alvignano-45-21-card.webp",
+   "full": "pv-alvignano-45-21-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-22",
+   "w": 1195,
+   "h": 896,
+   "color": "#482808",
+   "thumb": "pv-alvignano-45-22-thumb.webp",
+   "card": "pv-alvignano-45-22-card.webp",
+   "full": "pv-alvignano-45-22-full.webp"
+  },
+  {
+   "id": "pv-alvignano-45-23",
+   "w": 1024,
+   "h": 768,
+   "color": "#482808",
+   "thumb": "pv-alvignano-45-23-thumb.webp",
+   "card": "pv-alvignano-45-23-card.webp",
+   "full": "pv-alvignano-45-23-full.webp"
+  }
+ ],
+ "pv-finelli-55": [
+  {
+   "id": "pv-finelli-55-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "pv-finelli-55-01-thumb.webp",
+   "card": "pv-finelli-55-01-card.webp",
+   "full": "pv-finelli-55-01-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "pv-finelli-55-02-thumb.webp",
+   "card": "pv-finelli-55-02-card.webp",
+   "full": "pv-finelli-55-02-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a8a8a8",
+   "thumb": "pv-finelli-55-03-thumb.webp",
+   "card": "pv-finelli-55-03-card.webp",
+   "full": "pv-finelli-55-03-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "pv-finelli-55-04-thumb.webp",
+   "card": "pv-finelli-55-04-card.webp",
+   "full": "pv-finelli-55-04-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-05",
+   "w": 1080,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "pv-finelli-55-05-thumb.webp",
+   "card": "pv-finelli-55-05-card.webp",
+   "full": "pv-finelli-55-05-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#281818",
+   "thumb": "pv-finelli-55-06-thumb.webp",
+   "card": "pv-finelli-55-06-card.webp",
+   "full": "pv-finelli-55-06-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-07",
+   "w": 1080,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-07-thumb.webp",
+   "card": "pv-finelli-55-07-card.webp",
+   "full": "pv-finelli-55-07-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-08",
+   "w": 1080,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-08-thumb.webp",
+   "card": "pv-finelli-55-08-card.webp",
+   "full": "pv-finelli-55-08-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#281818",
+   "thumb": "pv-finelli-55-09-thumb.webp",
+   "card": "pv-finelli-55-09-card.webp",
+   "full": "pv-finelli-55-09-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-10-thumb.webp",
+   "card": "pv-finelli-55-10-card.webp",
+   "full": "pv-finelli-55-10-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-11-thumb.webp",
+   "card": "pv-finelli-55-11-card.webp",
+   "full": "pv-finelli-55-11-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-12-thumb.webp",
+   "card": "pv-finelli-55-12-card.webp",
+   "full": "pv-finelli-55-12-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "pv-finelli-55-13-thumb.webp",
+   "card": "pv-finelli-55-13-card.webp",
+   "full": "pv-finelli-55-13-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-14-thumb.webp",
+   "card": "pv-finelli-55-14-card.webp",
+   "full": "pv-finelli-55-14-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-15",
+   "w": 1920,
+   "h": 1440,
+   "color": "#180808",
+   "thumb": "pv-finelli-55-15-thumb.webp",
+   "card": "pv-finelli-55-15-card.webp",
+   "full": "pv-finelli-55-15-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#181818",
+   "thumb": "pv-finelli-55-16-thumb.webp",
+   "card": "pv-finelli-55-16-card.webp",
+   "full": "pv-finelli-55-16-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-finelli-55-17-thumb.webp",
+   "card": "pv-finelli-55-17-card.webp",
+   "full": "pv-finelli-55-17-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a8a8a8",
+   "thumb": "pv-finelli-55-18-thumb.webp",
+   "card": "pv-finelli-55-18-card.webp",
+   "full": "pv-finelli-55-18-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-19",
+   "w": 1080,
+   "h": 1440,
+   "color": "#b8b8b8",
+   "thumb": "pv-finelli-55-19-thumb.webp",
+   "card": "pv-finelli-55-19-card.webp",
+   "full": "pv-finelli-55-19-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#181818",
+   "thumb": "pv-finelli-55-20-thumb.webp",
+   "card": "pv-finelli-55-20-card.webp",
+   "full": "pv-finelli-55-20-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-21",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988888",
+   "thumb": "pv-finelli-55-21-thumb.webp",
+   "card": "pv-finelli-55-21-card.webp",
+   "full": "pv-finelli-55-21-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-22",
+   "w": 1920,
+   "h": 1440,
+   "color": "#181818",
+   "thumb": "pv-finelli-55-22-thumb.webp",
+   "card": "pv-finelli-55-22-card.webp",
+   "full": "pv-finelli-55-22-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-23",
+   "w": 1080,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "pv-finelli-55-23-thumb.webp",
+   "card": "pv-finelli-55-23-card.webp",
+   "full": "pv-finelli-55-23-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-24",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "pv-finelli-55-24-thumb.webp",
+   "card": "pv-finelli-55-24-card.webp",
+   "full": "pv-finelli-55-24-full.webp"
+  },
+  {
+   "id": "pv-finelli-55-25",
+   "w": 1080,
+   "h": 1440,
+   "color": "#d8f8f8",
+   "thumb": "pv-finelli-55-25-thumb.webp",
+   "card": "pv-finelli-55-25-card.webp",
+   "full": "pv-finelli-55-25-full.webp"
+  }
+ ],
+ "pv-gramsci-230": [
+  {
+   "id": "pv-gramsci-230-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "pv-gramsci-230-01-thumb.webp",
+   "card": "pv-gramsci-230-01-card.webp",
+   "full": "pv-gramsci-230-01-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#180808",
+   "thumb": "pv-gramsci-230-02-thumb.webp",
+   "card": "pv-gramsci-230-02-card.webp",
+   "full": "pv-gramsci-230-02-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "pv-gramsci-230-03-thumb.webp",
+   "card": "pv-gramsci-230-03-card.webp",
+   "full": "pv-gramsci-230-03-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#88a8c8",
+   "thumb": "pv-gramsci-230-04-thumb.webp",
+   "card": "pv-gramsci-230-04-card.webp",
+   "full": "pv-gramsci-230-04-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "pv-gramsci-230-05-thumb.webp",
+   "card": "pv-gramsci-230-05-card.webp",
+   "full": "pv-gramsci-230-05-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-06",
+   "w": 1080,
+   "h": 1440,
+   "color": "#484838",
+   "thumb": "pv-gramsci-230-06-thumb.webp",
+   "card": "pv-gramsci-230-06-card.webp",
+   "full": "pv-gramsci-230-06-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-07",
+   "w": 1080,
+   "h": 1440,
+   "color": "#483828",
+   "thumb": "pv-gramsci-230-07-thumb.webp",
+   "card": "pv-gramsci-230-07-card.webp",
+   "full": "pv-gramsci-230-07-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-08",
+   "w": 1080,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "pv-gramsci-230-08-thumb.webp",
+   "card": "pv-gramsci-230-08-card.webp",
+   "full": "pv-gramsci-230-08-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#484848",
+   "thumb": "pv-gramsci-230-09-thumb.webp",
+   "card": "pv-gramsci-230-09-card.webp",
+   "full": "pv-gramsci-230-09-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#988878",
+   "thumb": "pv-gramsci-230-10-thumb.webp",
+   "card": "pv-gramsci-230-10-card.webp",
+   "full": "pv-gramsci-230-10-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#787868",
+   "thumb": "pv-gramsci-230-11-thumb.webp",
+   "card": "pv-gramsci-230-11-card.webp",
+   "full": "pv-gramsci-230-11-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585848",
+   "thumb": "pv-gramsci-230-12-thumb.webp",
+   "card": "pv-gramsci-230-12-card.webp",
+   "full": "pv-gramsci-230-12-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "pv-gramsci-230-13-thumb.webp",
+   "card": "pv-gramsci-230-13-card.webp",
+   "full": "pv-gramsci-230-13-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "pv-gramsci-230-14-thumb.webp",
+   "card": "pv-gramsci-230-14-card.webp",
+   "full": "pv-gramsci-230-14-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-15",
+   "w": 1920,
+   "h": 1440,
+   "color": "#484848",
+   "thumb": "pv-gramsci-230-15-thumb.webp",
+   "card": "pv-gramsci-230-15-card.webp",
+   "full": "pv-gramsci-230-15-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#98b8e8",
+   "thumb": "pv-gramsci-230-16-thumb.webp",
+   "card": "pv-gramsci-230-16-card.webp",
+   "full": "pv-gramsci-230-16-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#886858",
+   "thumb": "pv-gramsci-230-17-thumb.webp",
+   "card": "pv-gramsci-230-17-card.webp",
+   "full": "pv-gramsci-230-17-full.webp"
+  },
+  {
+   "id": "pv-gramsci-230-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#98b8e8",
+   "thumb": "pv-gramsci-230-18-thumb.webp",
+   "card": "pv-gramsci-230-18-card.webp",
+   "full": "pv-gramsci-230-18-full.webp"
+  }
+ ],
+ "pv-municipio-110": [
+  {
+   "id": "pv-municipio-110-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#e8e8e8",
+   "thumb": "pv-municipio-110-01-thumb.webp",
+   "card": "pv-municipio-110-01-card.webp",
+   "full": "pv-municipio-110-01-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-02",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "pv-municipio-110-02-thumb.webp",
+   "card": "pv-municipio-110-02-card.webp",
+   "full": "pv-municipio-110-02-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-03",
+   "w": 1080,
+   "h": 1440,
+   "color": "#484848",
+   "thumb": "pv-municipio-110-03-thumb.webp",
+   "card": "pv-municipio-110-03-card.webp",
+   "full": "pv-municipio-110-03-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#888888",
+   "thumb": "pv-municipio-110-04-thumb.webp",
+   "card": "pv-municipio-110-04-card.webp",
+   "full": "pv-municipio-110-04-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#c8d8e8",
+   "thumb": "pv-municipio-110-05-thumb.webp",
+   "card": "pv-municipio-110-05-card.webp",
+   "full": "pv-municipio-110-05-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8e8f8",
+   "thumb": "pv-municipio-110-06-thumb.webp",
+   "card": "pv-municipio-110-06-card.webp",
+   "full": "pv-municipio-110-06-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-07",
+   "w": 1080,
+   "h": 1440,
+   "color": "#282828",
+   "thumb": "pv-municipio-110-07-thumb.webp",
+   "card": "pv-municipio-110-07-card.webp",
+   "full": "pv-municipio-110-07-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "pv-municipio-110-08-thumb.webp",
+   "card": "pv-municipio-110-08-card.webp",
+   "full": "pv-municipio-110-08-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686868",
+   "thumb": "pv-municipio-110-09-thumb.webp",
+   "card": "pv-municipio-110-09-card.webp",
+   "full": "pv-municipio-110-09-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-10",
+   "w": 1080,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "pv-municipio-110-10-thumb.webp",
+   "card": "pv-municipio-110-10-card.webp",
+   "full": "pv-municipio-110-10-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-11",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "pv-municipio-110-11-thumb.webp",
+   "card": "pv-municipio-110-11-card.webp",
+   "full": "pv-municipio-110-11-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-12",
+   "w": 1080,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "pv-municipio-110-12-thumb.webp",
+   "card": "pv-municipio-110-12-card.webp",
+   "full": "pv-municipio-110-12-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-13",
+   "w": 1080,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "pv-municipio-110-13-thumb.webp",
+   "card": "pv-municipio-110-13-card.webp",
+   "full": "pv-municipio-110-13-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "pv-municipio-110-14-thumb.webp",
+   "card": "pv-municipio-110-14-card.webp",
+   "full": "pv-municipio-110-14-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-15",
+   "w": 1920,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "pv-municipio-110-15-thumb.webp",
+   "card": "pv-municipio-110-15-card.webp",
+   "full": "pv-municipio-110-15-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#181818",
+   "thumb": "pv-municipio-110-16-thumb.webp",
+   "card": "pv-municipio-110-16-card.webp",
+   "full": "pv-municipio-110-16-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "pv-municipio-110-17-thumb.webp",
+   "card": "pv-municipio-110-17-card.webp",
+   "full": "pv-municipio-110-17-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-18",
+   "w": 1920,
+   "h": 1440,
+   "color": "#885848",
+   "thumb": "pv-municipio-110-18-thumb.webp",
+   "card": "pv-municipio-110-18-card.webp",
+   "full": "pv-municipio-110-18-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-19",
+   "w": 1920,
+   "h": 1440,
+   "color": "#987868",
+   "thumb": "pv-municipio-110-19-thumb.webp",
+   "card": "pv-municipio-110-19-card.webp",
+   "full": "pv-municipio-110-19-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-20",
+   "w": 1080,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "pv-municipio-110-20-thumb.webp",
+   "card": "pv-municipio-110-20-card.webp",
+   "full": "pv-municipio-110-20-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-21",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8e8f8",
+   "thumb": "pv-municipio-110-21-thumb.webp",
+   "card": "pv-municipio-110-21-card.webp",
+   "full": "pv-municipio-110-21-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-22",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "pv-municipio-110-22-thumb.webp",
+   "card": "pv-municipio-110-22-card.webp",
+   "full": "pv-municipio-110-22-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-23",
+   "w": 1080,
+   "h": 1440,
+   "color": "#383828",
+   "thumb": "pv-municipio-110-23-thumb.webp",
+   "card": "pv-municipio-110-23-card.webp",
+   "full": "pv-municipio-110-23-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-24",
+   "w": 1080,
+   "h": 1440,
+   "color": "#a8a8a8",
+   "thumb": "pv-municipio-110-24-thumb.webp",
+   "card": "pv-municipio-110-24-card.webp",
+   "full": "pv-municipio-110-24-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-25",
+   "w": 1920,
+   "h": 1440,
+   "color": "#d8e8f8",
+   "thumb": "pv-municipio-110-25-thumb.webp",
+   "card": "pv-municipio-110-25-card.webp",
+   "full": "pv-municipio-110-25-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-26",
+   "w": 1920,
+   "h": 1440,
+   "color": "#686858",
+   "thumb": "pv-municipio-110-26-thumb.webp",
+   "card": "pv-municipio-110-26-card.webp",
+   "full": "pv-municipio-110-26-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-27",
+   "w": 1920,
+   "h": 1440,
+   "color": "#987868",
+   "thumb": "pv-municipio-110-27-thumb.webp",
+   "card": "pv-municipio-110-27-card.webp",
+   "full": "pv-municipio-110-27-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-28",
+   "w": 1920,
+   "h": 1440,
+   "color": "#180808",
+   "thumb": "pv-municipio-110-28-thumb.webp",
+   "card": "pv-municipio-110-28-card.webp",
+   "full": "pv-municipio-110-28-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-29",
+   "w": 1080,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "pv-municipio-110-29-thumb.webp",
+   "card": "pv-municipio-110-29-card.webp",
+   "full": "pv-municipio-110-29-full.webp"
+  },
+  {
+   "id": "pv-municipio-110-30",
+   "w": 1080,
+   "h": 1440,
+   "color": "#988888",
+   "thumb": "pv-municipio-110-30-thumb.webp",
+   "card": "pv-municipio-110-30-card.webp",
+   "full": "pv-municipio-110-30-full.webp"
+  }
+ ],
+ "vv-acquariello-135": [
+  {
+   "id": "vv-acquariello-135-01",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a8c8f8",
+   "thumb": "vv-acquariello-135-01-thumb.webp",
+   "card": "vv-acquariello-135-01-card.webp",
+   "full": "vv-acquariello-135-01-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-02",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a8c8e8",
+   "thumb": "vv-acquariello-135-02-thumb.webp",
+   "card": "vv-acquariello-135-02-card.webp",
+   "full": "vv-acquariello-135-02-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-03",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8d8f8",
+   "thumb": "vv-acquariello-135-03-thumb.webp",
+   "card": "vv-acquariello-135-03-card.webp",
+   "full": "vv-acquariello-135-03-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-04",
+   "w": 1920,
+   "h": 1440,
+   "color": "#585858",
+   "thumb": "vv-acquariello-135-04-thumb.webp",
+   "card": "vv-acquariello-135-04-card.webp",
+   "full": "vv-acquariello-135-04-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-05",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383848",
+   "thumb": "vv-acquariello-135-05-thumb.webp",
+   "card": "vv-acquariello-135-05-card.webp",
+   "full": "vv-acquariello-135-05-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-06",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "vv-acquariello-135-06-thumb.webp",
+   "card": "vv-acquariello-135-06-card.webp",
+   "full": "vv-acquariello-135-06-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-07",
+   "w": 1920,
+   "h": 1440,
+   "color": "#f8f8f8",
+   "thumb": "vv-acquariello-135-07-thumb.webp",
+   "card": "vv-acquariello-135-07-card.webp",
+   "full": "vv-acquariello-135-07-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-08",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "vv-acquariello-135-08-thumb.webp",
+   "card": "vv-acquariello-135-08-card.webp",
+   "full": "vv-acquariello-135-08-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-09",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a8c8f8",
+   "thumb": "vv-acquariello-135-09-thumb.webp",
+   "card": "vv-acquariello-135-09-card.webp",
+   "full": "vv-acquariello-135-09-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-10",
+   "w": 1920,
+   "h": 1440,
+   "color": "#484848",
+   "thumb": "vv-acquariello-135-10-thumb.webp",
+   "card": "vv-acquariello-135-10-card.webp",
+   "full": "vv-acquariello-135-10-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-11",
+   "w": 1920,
+   "h": 1440,
+   "color": "#382818",
+   "thumb": "vv-acquariello-135-11-thumb.webp",
+   "card": "vv-acquariello-135-11-card.webp",
+   "full": "vv-acquariello-135-11-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-12",
+   "w": 1920,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "vv-acquariello-135-12-thumb.webp",
+   "card": "vv-acquariello-135-12-card.webp",
+   "full": "vv-acquariello-135-12-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-13",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "vv-acquariello-135-13-thumb.webp",
+   "card": "vv-acquariello-135-13-card.webp",
+   "full": "vv-acquariello-135-13-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-14",
+   "w": 1920,
+   "h": 1440,
+   "color": "#786868",
+   "thumb": "vv-acquariello-135-14-thumb.webp",
+   "card": "vv-acquariello-135-14-card.webp",
+   "full": "vv-acquariello-135-14-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-15",
+   "w": 1080,
+   "h": 1440,
+   "color": "#180808",
+   "thumb": "vv-acquariello-135-15-thumb.webp",
+   "card": "vv-acquariello-135-15-card.webp",
+   "full": "vv-acquariello-135-15-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-16",
+   "w": 1920,
+   "h": 1440,
+   "color": "#7898b8",
+   "thumb": "vv-acquariello-135-16-thumb.webp",
+   "card": "vv-acquariello-135-16-card.webp",
+   "full": "vv-acquariello-135-16-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-17",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8d8f8",
+   "thumb": "vv-acquariello-135-17-thumb.webp",
+   "card": "vv-acquariello-135-17-card.webp",
+   "full": "vv-acquariello-135-17-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-18",
+   "w": 1080,
+   "h": 1440,
+   "color": "#989898",
+   "thumb": "vv-acquariello-135-18-thumb.webp",
+   "card": "vv-acquariello-135-18-card.webp",
+   "full": "vv-acquariello-135-18-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-19",
+   "w": 1080,
+   "h": 1440,
+   "color": "#887868",
+   "thumb": "vv-acquariello-135-19-thumb.webp",
+   "card": "vv-acquariello-135-19-card.webp",
+   "full": "vv-acquariello-135-19-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-20",
+   "w": 1920,
+   "h": 1440,
+   "color": "#a89888",
+   "thumb": "vv-acquariello-135-20-thumb.webp",
+   "card": "vv-acquariello-135-20-card.webp",
+   "full": "vv-acquariello-135-20-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-21",
+   "w": 1920,
+   "h": 1440,
+   "color": "#786858",
+   "thumb": "vv-acquariello-135-21-thumb.webp",
+   "card": "vv-acquariello-135-21-card.webp",
+   "full": "vv-acquariello-135-21-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-22",
+   "w": 1920,
+   "h": 1440,
+   "color": "#7898c8",
+   "thumb": "vv-acquariello-135-22-thumb.webp",
+   "card": "vv-acquariello-135-22-card.webp",
+   "full": "vv-acquariello-135-22-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-23",
+   "w": 1920,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "vv-acquariello-135-23-thumb.webp",
+   "card": "vv-acquariello-135-23-card.webp",
+   "full": "vv-acquariello-135-23-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-24",
+   "w": 1920,
+   "h": 1440,
+   "color": "#584838",
+   "thumb": "vv-acquariello-135-24-thumb.webp",
+   "card": "vv-acquariello-135-24-card.webp",
+   "full": "vv-acquariello-135-24-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-25",
+   "w": 1920,
+   "h": 1440,
+   "color": "#080808",
+   "thumb": "vv-acquariello-135-25-thumb.webp",
+   "card": "vv-acquariello-135-25-card.webp",
+   "full": "vv-acquariello-135-25-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-26",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383848",
+   "thumb": "vv-acquariello-135-26-thumb.webp",
+   "card": "vv-acquariello-135-26-card.webp",
+   "full": "vv-acquariello-135-26-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-27",
+   "w": 1920,
+   "h": 1440,
+   "color": "#987868",
+   "thumb": "vv-acquariello-135-27-thumb.webp",
+   "card": "vv-acquariello-135-27-card.webp",
+   "full": "vv-acquariello-135-27-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-28",
+   "w": 1920,
+   "h": 1440,
+   "color": "#383838",
+   "thumb": "vv-acquariello-135-28-thumb.webp",
+   "card": "vv-acquariello-135-28-card.webp",
+   "full": "vv-acquariello-135-28-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-29",
+   "w": 1920,
+   "h": 1440,
+   "color": "#7898b8",
+   "thumb": "vv-acquariello-135-29-thumb.webp",
+   "card": "vv-acquariello-135-29-card.webp",
+   "full": "vv-acquariello-135-29-full.webp"
+  },
+  {
+   "id": "vv-acquariello-135-30",
+   "w": 1920,
+   "h": 1440,
+   "color": "#b8e8f8",
+   "thumb": "vv-acquariello-135-30-thumb.webp",
+   "card": "vv-acquariello-135-30-card.webp",
+   "full": "vv-acquariello-135-30-full.webp"
+  }
+ ]
+}
